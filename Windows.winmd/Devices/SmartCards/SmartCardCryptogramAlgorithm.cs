@@ -1,0 +1,24 @@
+﻿// Decompiled with JetBrains decompiler
+// Type: Windows.Devices.SmartCards.SmartCardCryptogramAlgorithm
+// Assembly: Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime
+// MVID: 806AFA92-BECA-4A21-B50F-752CC54B3430
+// Assembly location: C:\Users\Empyreal96\Desktop\Windows 10 Mobile\winmd\Windows.WinMD
+
+using Windows.Foundation.Metadata;
+
+namespace Windows.Devices.SmartCards
+{
+  [ContractVersion(typeof (SmartCardEmulatorContract), 131072)]
+  public enum SmartCardCryptogramAlgorithm
+  {
+    None,
+    CbcMac,
+    Cvc3Umd,
+    DecimalizedMsd,
+    Cvc3MD,
+    Sha1,
+    SignedDynamicApplicationData,
+    RsaPkcs1,
+    [ContractVersion("Windows.Devices.SmartCards.SmartCardEmulatorContract", 262144)] Sha256Hmac,
+  }
+}

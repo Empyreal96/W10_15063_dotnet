@@ -1,0 +1,382 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\Empyreal96\Desktop\WINDOW~1\100~1.150\MICROS~2.CBS\ARM_MI~1.297\windows\System32\MI5246~1.DLL-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{42B06771-C042-4364-9157-56A2A87E7094}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Microsoft.Phone.Data.Internal</AssemblyName>
+    <TargetFrameworkVersion>v8.0</TargetFrameworkVersion>
+    <ApplicationVersion>8.0.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Phone">
+      <HintPath>lib\MIF409~1.DLL</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="System\Data\SqlServerCe\Accessor.cs" />
+    <Compile Include="System\Data\SqlServerCe\Res.cs" />
+    <Compile Include="System\Data\SqlServerCe\ADP.cs" />
+    <Compile Include="System\Data\SqlServerCe\SqlCeInfoSchemaColumn.cs" />
+    <Compile Include="System\Data\SqlServerCe\KeyValuePairsEnumerator`2.cs" />
+    <Compile Include="System\Data\SqlServerCe\SqlCeTableColumns.cs" />
+    <Compile Include="System\Data\SqlServerCe\ConStringUtil.cs" />
+    <Compile Include="System\Data\SqlServerCe\FieldNameLookup.cs" />
+    <Compile Include="System\Data\SqlServerCe\SqlCompareOptions.cs" />
+    <Compile Include="System\Data\SqlServerCe\DbRangeOptions.cs" />
+    <Compile Include="System\Data\SqlServerCe\DbSeekOptions.cs" />
+    <Compile Include="System\Data\SqlServerCe\DbInsertOptions.cs" />
+    <Compile Include="System\Data\SqlServerCe\DbColumnFlags.cs" />
+    <Compile Include="System\Data\SqlServerCe\SORTFLAGS.cs" />
+    <Compile Include="System\Data\SqlServerCe\SeTransactionFlags.cs" />
+    <Compile Include="System\Data\SqlServerCe\DBStatus.cs" />
+    <Compile Include="System\Data\SqlServerCe\ENCRYPTIONMODE.cs" />
+    <Compile Include="System\Data\SqlServerCe\MEOPENINFO.cs" />
+    <Compile Include="System\Data\SqlServerCe\MEDBBINDING.cs" />
+    <Compile Include="System\Data\SqlServerCe\MEDBKEYINFO.cs" />
+    <Compile Include="System\Data\SqlServerCe\tagDBOBJECT.cs" />
+    <Compile Include="System\Data\SqlServerCe\DB_NUMERIC.cs" />
+    <Compile Include="System\Data\SqlServerCe\DBTIMESTAMP.cs" />
+    <Compile Include="System\Data\SqlServerCe\SEDATETIME.cs" />
+    <Compile Include="System\Data\SqlServerCe\SEPREPAREMODE.cs" />
+    <Compile Include="System\Data\SqlServerCe\SETYPE.cs" />
+    <Compile Include="System\Data\SqlServerCe\SEFIXOPTION.cs" />
+    <Compile Include="System\Data\SqlServerCe\SEOPENFLAGS.cs" />
+    <Compile Include="System\Data\SqlServerCe\SELOCALEFLAGS.cs" />
+    <Compile Include="System\Data\SqlServerCe\SEISOLATION.cs" />
+    <Compile Include="System\Data\SqlServerCe\SEGETCOLUMN.cs" />
+    <Compile Include="System\Data\SqlServerCe\SECOLUMNATTRIB.cs" />
+    <Compile Include="System\Data\SqlServerCe\SECOLUMNINFO.cs" />
+    <Compile Include="System\Data\SqlServerCe\SETABLEATTRIBOPS.cs" />
+    <Compile Include="System\Data\SqlServerCe\SETABLEATTRIBS.cs" />
+    <Compile Include="System\Data\SqlServerCe\SEOCSTRACKOPTIONS.cs" />
+    <Compile Include="System\Data\SqlServerCe\SEOCSTRACKOPTIONSV2.cs" />
+    <Compile Include="System\Data\SqlServerCe\SETABLEINFO.cs" />
+    <Compile Include="System\Data\SqlServerCe\SETRACKINGTYPE.cs" />
+    <Compile Include="System\Data\SqlServerCe\QPPARAMTYPE.cs" />
+    <Compile Include="System\Data\SqlServerCe\QPPARAMINFO.cs" />
+    <Compile Include="System\Data\SqlServerCe\FETCH.cs" />
+    <Compile Include="System\Data\SqlServerCe\DIRECTION.cs" />
+    <Compile Include="System\Data\SqlServerCe\MetaData.cs" />
+    <Compile Include="System\Data\SqlServerCe\KeywordMapper.cs" />
+    <Compile Include="System\Data\SqlServerCe\Keywords.cs" />
+    <Compile Include="System\Data\SqlServerCe\KillBitHelper.cs" />
+    <Compile Include="System\Data\SqlServerCe\FlushFailureEventHandler.cs" />
+    <Compile Include="System\Data\SqlServerCe\NativeMethods.cs" />
+    <Compile Include="System\Data\SqlServerCe\ResultSetEnumerator.cs" />
+    <Compile Include="System\Data\SqlServerCe\ResultSetOptions.cs" />
+    <Compile Include="System\Data\SqlServerCe\ResultSetSensitivity.cs" />
+    <Compile Include="System\Data\SqlServerCe\SqlCeCommand.cs" />
+    <Compile Include="System\Data\SqlServerCe\SqlCeCommandBuilder.cs" />
+    <Compile Include="System\Data\SqlServerCe\SqlCeConnection.cs" />
+    <Compile Include="System\Data\SqlServerCe\SqlCeConnectionStringBuilder.cs" />
+    <Compile Include="System\Data\SqlServerCe\SqlCeConnectionStringDefaults.cs" />
+    <Compile Include="System\Data\SqlServerCe\SqlCeConnectionStringKeywords.cs" />
+    <Compile Include="System\Data\SqlServerCe\SqlCeConnectionStringSynonyms.cs" />
+    <Compile Include="System\Data\SqlServerCe\SqlCeDataAdapter.cs" />
+    <Compile Include="System\Data\SqlServerCe\CursorPosition.cs" />
+    <Compile Include="System\Data\SqlServerCe\SqlCeDataReader.cs" />
+    <Compile Include="System\Data\SqlServerCe\RepairOption.cs" />
+    <Compile Include="System\Data\SqlServerCe\VerifyOption.cs" />
+    <Compile Include="System\Data\SqlServerCe\SqlCeEngine.cs" />
+    <Compile Include="System\Data\SqlServerCe\SqlCeError.cs" />
+    <Compile Include="System\Data\SqlServerCe\SqlCeErrorCollection.cs" />
+    <Compile Include="System\Data\SqlServerCe\SqlCeLockTimeoutException.cs" />
+    <Compile Include="System\Data\SqlServerCe\SqlCeTransactionInProgressException.cs" />
+    <Compile Include="System\Data\SqlServerCe\SqlCeInvalidDatabaseFormatException.cs" />
+    <Compile Include="System\Data\SqlServerCe\SqlCeException.cs" />
+    <Compile Include="System\Data\SqlServerCe\SqlCeFlushFailureEventArgs.cs" />
+    <Compile Include="System\Data\SqlServerCe\SqlCeFlushFailureEventHandler.cs" />
+    <Compile Include="System\Data\SqlServerCe\SqlCeInfoMessageEventArgs.cs" />
+    <Compile Include="System\Data\SqlServerCe\SqlCeInfoMessageEventHandler.cs" />
+    <Compile Include="System\Data\SqlServerCe\SqlCeParameter.cs" />
+    <Compile Include="System\Data\SqlServerCe\SqlCeParameterCollection.cs" />
+    <Compile Include="System\Data\SqlServerCe\SqlCeProviderFactory.cs" />
+    <Compile Include="System\Data\SqlServerCe\SqlCeResultSet.cs" />
+    <Compile Include="System\Data\SqlServerCe\ColumnUpdatedStatus.cs" />
+    <Compile Include="System\Data\SqlServerCe\ChangeType.cs" />
+    <Compile Include="System\Data\SqlServerCe\SqlCeRowUpdatedEventArgs.cs" />
+    <Compile Include="System\Data\SqlServerCe\SqlCeRowUpdatedEventHandler.cs" />
+    <Compile Include="System\Data\SqlServerCe\SqlCeRowUpdatingEventArgs.cs" />
+    <Compile Include="System\Data\SqlServerCe\SqlCeRowUpdatingEventHandler.cs" />
+    <Compile Include="System\Data\SqlServerCe\CommitMode.cs" />
+    <Compile Include="System\Data\SqlServerCe\SqlCeTransaction.cs" />
+    <Compile Include="System\Data\SqlServerCe\SqlCeType.cs" />
+    <Compile Include="System\Data\SqlServerCe\SqlCeUpdatableRecord.cs" />
+    <Compile Include="System\Data\SqlServerCe\SqlCeUtil.cs" />
+    <Compile Include="System\Data\SqlServerCe\SqlMetaData.cs" />
+    <Compile Include="System\Data\SqlServerCe\ValueMapper.cs" />
+    <Compile Include="System\Data\SqlServerCe\WeakReferenceCache.cs" />
+    <Compile Include="System\Data\SqlServerCe\SqlCeVersion.cs" />
+    <Compile Include="Microsoft\Phone\Data\Resources.cs" />
+    <Compile Include="Microsoft\Phone\Data\Res.cs" />
+    <Compile Include="Microsoft\Phone\Data\AcceptRejectRule.cs" />
+    <Compile Include="Microsoft\Phone\Data\AggregateType.cs" />
+    <Compile Include="Microsoft\Phone\Data\InternalDataCollectionBase.cs" />
+    <Compile Include="Microsoft\Phone\Data\CommandBehavior.cs" />
+    <Compile Include="Microsoft\Phone\Data\CommandType.cs" />
+    <Compile Include="Microsoft\Phone\Data\ConflictOption.cs" />
+    <Compile Include="Microsoft\Phone\Data\ConnectionState.cs" />
+    <Compile Include="Microsoft\Phone\Data\Constraint.cs" />
+    <Compile Include="Microsoft\Phone\Data\ConstraintCollection.cs" />
+    <Compile Include="Microsoft\Phone\Data\ConstraintEnumerator.cs" />
+    <Compile Include="Microsoft\Phone\Data\ForeignKeyConstraintEnumerator.cs" />
+    <Compile Include="Microsoft\Phone\Data\ChildForeignKeyConstraintEnumerator.cs" />
+    <Compile Include="Microsoft\Phone\Data\ParentForeignKeyConstraintEnumerator.cs" />
+    <Compile Include="Microsoft\Phone\Data\DataColumn.cs" />
+    <Compile Include="Microsoft\Phone\Data\DataColumnChangeEventArgs.cs" />
+    <Compile Include="Microsoft\Phone\Data\DataColumnChangeEventHandler.cs" />
+    <Compile Include="Microsoft\Phone\Data\DataColumnCollection.cs" />
+    <Compile Include="Microsoft\Phone\Data\DataColumnPropertyDescriptor.cs" />
+    <Compile Include="Microsoft\Phone\Data\DataError.cs" />
+    <Compile Include="Microsoft\Phone\Data\ConstraintException.cs" />
+    <Compile Include="Microsoft\Phone\Data\DeletedRowInaccessibleException.cs" />
+    <Compile Include="Microsoft\Phone\Data\DuplicateNameException.cs" />
+    <Compile Include="Microsoft\Phone\Data\InRowChangingEventException.cs" />
+    <Compile Include="Microsoft\Phone\Data\InvalidConstraintException.cs" />
+    <Compile Include="Microsoft\Phone\Data\MissingPrimaryKeyException.cs" />
+    <Compile Include="Microsoft\Phone\Data\NoNullAllowedException.cs" />
+    <Compile Include="Microsoft\Phone\Data\ReadOnlyException.cs" />
+    <Compile Include="Microsoft\Phone\Data\RowNotInTableException.cs" />
+    <Compile Include="Microsoft\Phone\Data\VersionNotFoundException.cs" />
+    <Compile Include="Microsoft\Phone\Data\ExceptionBuilder.cs" />
+    <Compile Include="Microsoft\Phone\Data\DataKey.cs" />
+    <Compile Include="Microsoft\Phone\Data\DataRelation.cs" />
+    <Compile Include="Microsoft\Phone\Data\DataRelationCollection.cs" />
+    <Compile Include="Microsoft\Phone\Data\DataRelationPropertyDescriptor.cs" />
+    <Compile Include="Microsoft\Phone\Data\DataRow.cs" />
+    <Compile Include="Microsoft\Phone\Data\DataRowBuilder.cs" />
+    <Compile Include="Microsoft\Phone\Data\DataRowAction.cs" />
+    <Compile Include="Microsoft\Phone\Data\DataRowChangeEventArgs.cs" />
+    <Compile Include="Microsoft\Phone\Data\DataRowChangeEventHandler.cs" />
+    <Compile Include="Microsoft\Phone\Data\DataRowCollection.cs" />
+    <Compile Include="Microsoft\Phone\Data\DataRowCreatedEventHandler.cs" />
+    <Compile Include="Microsoft\Phone\Data\DataSetClearEventhandler.cs" />
+    <Compile Include="Microsoft\Phone\Data\DataRowState.cs" />
+    <Compile Include="Microsoft\Phone\Data\DataRowVersion.cs" />
+    <Compile Include="Microsoft\Phone\Data\DataRowView.cs" />
+    <Compile Include="Microsoft\Phone\Data\DataSet.cs" />
+    <Compile Include="Microsoft\Phone\Data\DataSetDateTime.cs" />
+    <Compile Include="Microsoft\Phone\Data\DataTable.cs" />
+    <Compile Include="Microsoft\Phone\Data\DataTableClearEventArgs.cs" />
+    <Compile Include="Microsoft\Phone\Data\DataTableClearEventHandler.cs" />
+    <Compile Include="Microsoft\Phone\Data\DataTableCollection.cs" />
+    <Compile Include="Microsoft\Phone\Data\DataTableNewRowEventArgs.cs" />
+    <Compile Include="Microsoft\Phone\Data\DataTableNewRowEventHandler.cs" />
+    <Compile Include="Microsoft\Phone\Data\DataTableReader.cs" />
+    <Compile Include="Microsoft\Phone\Data\DataTableReaderListener.cs" />
+    <Compile Include="Microsoft\Phone\Data\DataView.cs" />
+    <Compile Include="Microsoft\Phone\Data\DataViewListener.cs" />
+    <Compile Include="Microsoft\Phone\Data\DataViewManager.cs" />
+    <Compile Include="Microsoft\Phone\Data\DataViewRowState.cs" />
+    <Compile Include="Microsoft\Phone\Data\DataViewSetting.cs" />
+    <Compile Include="Microsoft\Phone\Data\DataViewSettingCollection.cs" />
+    <Compile Include="Microsoft\Phone\Data\DBConcurrencyException.cs" />
+    <Compile Include="Microsoft\Phone\Data\DbType.cs" />
+    <Compile Include="Microsoft\Phone\Data\FillErrorEventArgs.cs" />
+    <Compile Include="Microsoft\Phone\Data\FillErrorEventHandler.cs" />
+    <Compile Include="Microsoft\Phone\Data\Aggregate.cs" />
+    <Compile Include="Microsoft\Phone\Data\AggregateNode.cs" />
+    <Compile Include="Microsoft\Phone\Data\BinaryNode.cs" />
+    <Compile Include="Microsoft\Phone\Data\LikeNode.cs" />
+    <Compile Include="Microsoft\Phone\Data\ConstNode.cs" />
+    <Compile Include="Microsoft\Phone\Data\DataExpression.cs" />
+    <Compile Include="Microsoft\Phone\Data\ExpressionNode.cs" />
+    <Compile Include="Microsoft\Phone\Data\ValueType.cs" />
+    <Compile Include="Microsoft\Phone\Data\Nodes.cs" />
+    <Compile Include="Microsoft\Phone\Data\ExpressionParser.cs" />
+    <Compile Include="Microsoft\Phone\Data\Tokens.cs" />
+    <Compile Include="Microsoft\Phone\Data\OperatorInfo.cs" />
+    <Compile Include="Microsoft\Phone\Data\InvalidExpressionException.cs" />
+    <Compile Include="Microsoft\Phone\Data\EvaluateException.cs" />
+    <Compile Include="Microsoft\Phone\Data\SyntaxErrorException.cs" />
+    <Compile Include="Microsoft\Phone\Data\ExprException.cs" />
+    <Compile Include="Microsoft\Phone\Data\FunctionNode.cs" />
+    <Compile Include="Microsoft\Phone\Data\FunctionId.cs" />
+    <Compile Include="Microsoft\Phone\Data\Function.cs" />
+    <Compile Include="Microsoft\Phone\Data\IFilter.cs" />
+    <Compile Include="Microsoft\Phone\Data\LookupNode.cs" />
+    <Compile Include="Microsoft\Phone\Data\NameNode.cs" />
+    <Compile Include="Microsoft\Phone\Data\Operators.cs" />
+    <Compile Include="Microsoft\Phone\Data\UnaryNode.cs" />
+    <Compile Include="Microsoft\Phone\Data\ZeroOpNode.cs" />
+    <Compile Include="Microsoft\Phone\Data\ForeignKeyConstraint.cs" />
+    <Compile Include="Microsoft\Phone\Data\IColumnMapping.cs" />
+    <Compile Include="Microsoft\Phone\Data\IColumnMappingCollection.cs" />
+    <Compile Include="Microsoft\Phone\Data\IDataAdapter.cs" />
+    <Compile Include="Microsoft\Phone\Data\IDataParameter.cs" />
+    <Compile Include="Microsoft\Phone\Data\IDataParameterCollection.cs" />
+    <Compile Include="Microsoft\Phone\Data\IDataReader.cs" />
+    <Compile Include="Microsoft\Phone\Data\IDataRecord.cs" />
+    <Compile Include="Microsoft\Phone\Data\IDbCommand.cs" />
+    <Compile Include="Microsoft\Phone\Data\IDbConnection.cs" />
+    <Compile Include="Microsoft\Phone\Data\IDbDataAdapter.cs" />
+    <Compile Include="Microsoft\Phone\Data\IDbDataParameter.cs" />
+    <Compile Include="Microsoft\Phone\Data\IDbTransaction.cs" />
+    <Compile Include="Microsoft\Phone\Data\IsolationLevel.cs" />
+    <Compile Include="Microsoft\Phone\Data\ITableMapping.cs" />
+    <Compile Include="Microsoft\Phone\Data\ITableMappingCollection.cs" />
+    <Compile Include="Microsoft\Phone\Data\LoadOption.cs" />
+    <Compile Include="Microsoft\Phone\Data\MappingType.cs" />
+    <Compile Include="Microsoft\Phone\Data\MergeFailedEventArgs.cs" />
+    <Compile Include="Microsoft\Phone\Data\MergeFailedEventHandler.cs" />
+    <Compile Include="Microsoft\Phone\Data\Merger.cs" />
+    <Compile Include="Microsoft\Phone\Data\MissingMappingAction.cs" />
+    <Compile Include="Microsoft\Phone\Data\MissingSchemaAction.cs" />
+    <Compile Include="Microsoft\Phone\Data\ParameterDirection.cs" />
+    <Compile Include="Microsoft\Phone\Data\PropertyCollection.cs" />
+    <Compile Include="Microsoft\Phone\Data\Range.cs" />
+    <Compile Include="Microsoft\Phone\Data\RBTreeError.cs" />
+    <Compile Include="Microsoft\Phone\Data\TreeAccessMethod.cs" />
+    <Compile Include="Microsoft\Phone\Data\RBTree`1.cs" />
+    <Compile Include="Microsoft\Phone\Data\RecordManager.cs" />
+    <Compile Include="Microsoft\Phone\Data\RelatedView.cs" />
+    <Compile Include="Microsoft\Phone\Data\Rule.cs" />
+    <Compile Include="Microsoft\Phone\Data\SchemaSerializationMode.cs" />
+    <Compile Include="Microsoft\Phone\Data\SchemaType.cs" />
+    <Compile Include="Microsoft\Phone\Data\Select.cs" />
+    <Compile Include="Microsoft\Phone\Data\IndexField.cs" />
+    <Compile Include="Microsoft\Phone\Data\Index.cs" />
+    <Compile Include="Microsoft\Phone\Data\Listeners`1.cs" />
+    <Compile Include="Microsoft\Phone\Data\SimpleType.cs" />
+    <Compile Include="Microsoft\Phone\Data\SqlDbType.cs" />
+    <Compile Include="Microsoft\Phone\Data\StateChangeEventArgs.cs" />
+    <Compile Include="Microsoft\Phone\Data\StateChangeEventHandler.cs" />
+    <Compile Include="Microsoft\Phone\Data\StatementType.cs" />
+    <Compile Include="Microsoft\Phone\Data\UniqueConstraint.cs" />
+    <Compile Include="Microsoft\Phone\Data\UpdateRowSource.cs" />
+    <Compile Include="Microsoft\Phone\Data\UpdateStatus.cs" />
+    <Compile Include="Microsoft\Phone\Data\HResults.cs" />
+    <Compile Include="Microsoft\Phone\Data\XmlContent.cs" />
+    <Compile Include="Microsoft\Phone\Data\Keywords.cs" />
+    <Compile Include="Microsoft\Phone\Data\XmlReadMode.cs" />
+    <Compile Include="Microsoft\Phone\Data\SchemaFormat.cs" />
+    <Compile Include="Microsoft\Phone\Data\XmlTreeGen.cs" />
+    <Compile Include="Microsoft\Phone\Data\XmlWriteMode.cs" />
+    <Compile Include="Microsoft\Phone\Data\SqlTypes\INullable.cs" />
+    <Compile Include="Microsoft\Phone\Data\SqlTypes\SqlDecimal.cs" />
+    <Compile Include="Microsoft\Phone\Data\SqlTypes\SQLResource.cs" />
+    <Compile Include="Microsoft\Phone\Data\SqlTypes\EComparison.cs" />
+    <Compile Include="Microsoft\Phone\Data\SqlTypes\StorageState.cs" />
+    <Compile Include="Microsoft\Phone\Data\SqlTypes\SqlTypeException.cs" />
+    <Compile Include="Microsoft\Phone\Data\SqlTypes\SqlNullValueException.cs" />
+    <Compile Include="Microsoft\Phone\Data\SqlTypes\SqlTruncateException.cs" />
+    <Compile Include="Microsoft\Phone\Data\SqlTypes\SqlNotFilledException.cs" />
+    <Compile Include="Microsoft\Phone\Data\SqlTypes\SQLDebug.cs" />
+    <Compile Include="Microsoft\Phone\Data\ProviderBase\FieldNameLookup.cs" />
+    <Compile Include="Microsoft\Phone\Data\ProviderBase\DataReaderContainer.cs" />
+    <Compile Include="Microsoft\Phone\Data\ProviderBase\SchemaMapping.cs" />
+    <Compile Include="Microsoft\Phone\Data\Common\CatalogLocation.cs" />
+    <Compile Include="Microsoft\Phone\Data\Common\ADP.cs" />
+    <Compile Include="Microsoft\Phone\Data\Common\BooleanStorage.cs" />
+    <Compile Include="Microsoft\Phone\Data\Common\ByteStorage.cs" />
+    <Compile Include="Microsoft\Phone\Data\Common\CharStorage.cs" />
+    <Compile Include="Microsoft\Phone\Data\Common\DataAdapter.cs" />
+    <Compile Include="Microsoft\Phone\Data\Common\LoadAdapter.cs" />
+    <Compile Include="Microsoft\Phone\Data\Common\DataColumnMapping.cs" />
+    <Compile Include="Microsoft\Phone\Data\Common\DataColumnMappingCollection.cs" />
+    <Compile Include="Microsoft\Phone\Data\Common\DataRecordInternal.cs" />
+    <Compile Include="Microsoft\Phone\Data\Common\SchemaInfo.cs" />
+    <Compile Include="Microsoft\Phone\Data\Common\StorageType.cs" />
+    <Compile Include="Microsoft\Phone\Data\Common\DataStorage.cs" />
+    <Compile Include="Microsoft\Phone\Data\Common\DataTableMapping.cs" />
+    <Compile Include="Microsoft\Phone\Data\Common\DataTableMappingCollection.cs" />
+    <Compile Include="Microsoft\Phone\Data\Common\DateTimeStorage.cs" />
+    <Compile Include="Microsoft\Phone\Data\Common\DbCommand.cs" />
+    <Compile Include="Microsoft\Phone\Data\Common\DbCommandBuilder.cs" />
+    <Compile Include="Microsoft\Phone\Data\Common\DbConnection.cs" />
+    <Compile Include="Microsoft\Phone\Data\Common\DbConnectionOptions.cs" />
+    <Compile Include="Microsoft\Phone\Data\Common\DbConnectionStringBuilder.cs" />
+    <Compile Include="Microsoft\Phone\Data\Common\DbConnectionStringBuilderDescriptor.cs" />
+    <Compile Include="Microsoft\Phone\Data\Common\ReadOnlyCollection`1.cs" />
+    <Compile Include="Microsoft\Phone\Data\Common\DbConnectionStringBuilderUtil.cs" />
+    <Compile Include="Microsoft\Phone\Data\Common\DbConnectionStringDefaults.cs" />
+    <Compile Include="Microsoft\Phone\Data\Common\DbConnectionOptionKeywords.cs" />
+    <Compile Include="Microsoft\Phone\Data\Common\DbConnectionStringKeywords.cs" />
+    <Compile Include="Microsoft\Phone\Data\Common\DbConnectionStringSynonyms.cs" />
+    <Compile Include="Microsoft\Phone\Data\Common\DbDataAdapter.cs" />
+    <Compile Include="Microsoft\Phone\Data\Common\DbDataReader.cs" />
+    <Compile Include="Microsoft\Phone\Data\Common\DbDataRecord.cs" />
+    <Compile Include="Microsoft\Phone\Data\Common\DbDataSourceEnumerator.cs" />
+    <Compile Include="Microsoft\Phone\Data\Common\DbEnumerator.cs" />
+    <Compile Include="Microsoft\Phone\Data\Common\DbParameter.cs" />
+    <Compile Include="Microsoft\Phone\Data\Common\DbParameterCollection.cs" />
+    <Compile Include="Microsoft\Phone\Data\Common\DbProviderFactory.cs" />
+    <Compile Include="Microsoft\Phone\Data\Common\DbSchemaRow.cs" />
+    <Compile Include="Microsoft\Phone\Data\Common\DbSchemaTable.cs" />
+    <Compile Include="Microsoft\Phone\Data\Common\DbTransaction.cs" />
+    <Compile Include="Microsoft\Phone\Data\Common\DecimalStorage.cs" />
+    <Compile Include="Microsoft\Phone\Data\Common\DoubleStorage.cs" />
+    <Compile Include="Microsoft\Phone\Data\Common\Int16Storage.cs" />
+    <Compile Include="Microsoft\Phone\Data\Common\Int32Storage.cs" />
+    <Compile Include="Microsoft\Phone\Data\Common\Int64Storage.cs" />
+    <Compile Include="Microsoft\Phone\Data\Common\NameValuePair.cs" />
+    <Compile Include="Microsoft\Phone\Data\Common\ObjectStorage.cs" />
+    <Compile Include="Microsoft\Phone\Data\Common\RowUpdatedEventArgs.cs" />
+    <Compile Include="Microsoft\Phone\Data\Common\RowUpdatingEventArgs.cs" />
+    <Compile Include="Microsoft\Phone\Data\Common\SByteStorage.cs" />
+    <Compile Include="Microsoft\Phone\Data\Common\SchemaTableColumn.cs" />
+    <Compile Include="Microsoft\Phone\Data\Common\SchemaTableOptionalColumn.cs" />
+    <Compile Include="Microsoft\Phone\Data\Common\SingleStorage.cs" />
+    <Compile Include="Microsoft\Phone\Data\Common\SqlConvert.cs" />
+    <Compile Include="Microsoft\Phone\Data\Common\StringStorage.cs" />
+    <Compile Include="Microsoft\Phone\Data\Common\TimeSpanStorage.cs" />
+    <Compile Include="Microsoft\Phone\Data\Common\UInt16Storage.cs" />
+    <Compile Include="Microsoft\Phone\Data\Common\UInt32Storage.cs" />
+    <Compile Include="Microsoft\Phone\Data\Common\UInt64Storage.cs" />
+    <Compile Include="Microsoft\Phone\Data\Common\DbMetaDataCollectionNames.cs" />
+    <Compile Include="Microsoft\Phone\Data\Common\DbMetaDataColumnNames.cs" />
+    <Compile Include="Microsoft\Phone\Data\Workaround\ArrayList.cs" />
+    <Compile Include="Microsoft\Phone\Data\Workaround\CollectionChangeAction.cs" />
+    <Compile Include="Microsoft\Phone\Data\Workaround\CollectionChangeEventArgs.cs" />
+    <Compile Include="Microsoft\Phone\Data\Workaround\CollectionChangeEventHandler.cs" />
+    <Compile Include="Microsoft\Phone\Data\Workaround\Comparer.cs" />
+    <Compile Include="Microsoft\Phone\Data\Workaround\CompatibleComparer.cs" />
+    <Compile Include="Microsoft\Phone\Data\Workaround\CultureInfoCompareWorkaround.cs" />
+    <Compile Include="Microsoft\Phone\Data\Workaround\EventHandlerList.cs" />
+    <Compile Include="Microsoft\Phone\Data\Workaround\Hashtable.cs" />
+    <Compile Include="Microsoft\Phone\Data\Workaround\HashHelpers.cs" />
+    <Compile Include="Microsoft\Phone\Data\Workaround\IBindingList.cs" />
+    <Compile Include="Microsoft\Phone\Data\Workaround\ICloneable.cs" />
+    <Compile Include="Microsoft\Phone\Data\Workaround\IHashCodeProvider.cs" />
+    <Compile Include="Microsoft\Phone\Data\Workaround\ListChangedEventArgs.cs" />
+    <Compile Include="Microsoft\Phone\Data\Workaround\ListChangedEventHandler.cs" />
+    <Compile Include="Microsoft\Phone\Data\Workaround\ListChangedType.cs" />
+    <Compile Include="Microsoft\Phone\Data\Workaround\MarshalByValueComponent.cs" />
+    <Compile Include="Microsoft\Phone\Data\Workaround\AttributeCollection.cs" />
+    <Compile Include="Microsoft\Phone\Data\Workaround\MemberDescriptor.cs" />
+    <Compile Include="Microsoft\Phone\Data\Workaround\PropertyDescriptor.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources.resx" />
+    <EmbeddedResource Include="System\Data\SqlServerCe.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\Empyreal96\Desktop\WINDOW~1\100~1.150\MICROS~2.CBS\ARM_MI~1.297\windows\System32\MI5CF0~1.DLL-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0B80C825-2871-4449-A856-F710FA0DD5EA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Microsoft.Xna.Framework.GamerServices</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <ApplicationVersion>4.0.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Phone">
+      <HintPath>lib\MIF409~1.DLL</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Phone.Interop">
+      <HintPath>lib\MI93EA~1.DLL</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework">
+      <HintPath>lib\MIA915~1.DLL</HintPath>
+    </Reference>
+    <Reference Include="System.Windows" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\ActionDialogHelper.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\ErrorHandler.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\FriendGamer.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\FriendCollection.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\GamerPrivilegeSetting.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\GamerPrivileges.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\SignedInEventArgs.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\SignedOutEventArgs.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\InviteAcceptedEventArgs.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\GamerServicesNotAvailableException.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\Guide.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\PlayerState.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\SignedInGamerCollection.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\SocialGamer.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\GamerServicesDispatcher.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\DismissedReason.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\GS_ActionDialogResult.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\PM_ApplicationInstallType.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\SafeNativeMethods.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\UnsafeNativeMethods.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\Achievement.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\AchievementCollection.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\GameDefaults.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\Gamer.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\InternalIndexComparer`1.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\GamerCollection`1.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\GamerPresence.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\GamerProfile.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\GamerServicesProviderAccesor.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\GamerServicesProviderWeb.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\LeaderboardEntry.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\LeaderboardColumnFiller.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\LeaderboardEntryFiller.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\LeaderboardEntryCollectionFiller.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\LeaderboardIdentity.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\LeaderboardReader.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\LeaderboardWriter.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\SafeMobileNativeMethods.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\MobileNativeMethods.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\PropertyDictionary.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\BaseFiller.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\GamerFiller.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\SignedInGamerFiller.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\AchievementFiller.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\GamerProfileFiller.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\AchievementsCollectionFiller.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\PropertyValue.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\TypedPropertyValue`1.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\StreamPropertyValue.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\SignedInGamer.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\XlastConfiguration.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\XlastLeaderboard.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\XlastLeaderboardColumn.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\XlastProperty.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\XlastPropertyType.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\XlastReader.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\KernelCallType.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\ProxyExitCode.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\UpdateOutputCommand.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\PlayerSignInState.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\GuideState.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\MessageBoxIcon.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\GfServiceType.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\GfRequestMethod.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\NotificationPosition.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\ParameterValidation.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\GamerPrivilegeOptions.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\ControllerSensitivity.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\GameDifficulty.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\RacingCameraAngle.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\GamerZone.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\FriendState.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\GamerPresenceMode.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\LeaderboardKey.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\LeaderboardOutcome.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\GamerPrivilegeException.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\GameUpdateRequiredException.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\GuideAlreadyVisibleException.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\NetworkException.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\NetworkNotAvailableException.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\LIVEn\ILIVEnService.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\LIVEn\IStreamStream.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\LIVEn\LIVEnService.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\Stub\GSPropertyName.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\Stub\IPropertyFiller.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\Stub\IPropertyCollectionFiller.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\Stub\ILeaderboardColumnFiller.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\Stub\GSLeaderboard.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\Stub\GSSignedInStatusChangedEventArgs.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\Stub\GSWriteLeaderboardEventArgs.cs" />
+    <Compile Include="Microsoft\Xna\Framework\GamerServices\Stub\IGamerServicesProvider.cs" />
+    <Compile Include="GamerServices\Platforms\Web\HandleType.cs" />
+    <Compile Include="GamerServices\Platforms\Web\HandleManager.cs" />
+    <Compile Include="GamerServices\Platforms\Web\LIVEnAchievementGranter.cs" />
+    <Compile Include="GamerServices\Platforms\Web\LIVEnAchievement.cs" />
+    <Compile Include="GamerServices\Platforms\Web\LIVEnAchievementsReader.cs" />
+    <Compile Include="GamerServices\Platforms\Web\LIVEnLeaderboardEntry.cs" />
+    <Compile Include="GamerServices\Platforms\Web\LIVEnLeaderboardReader.cs" />
+    <Compile Include="GamerServices\Platforms\Web\LIVEnLeaderboardWriteEntry.cs" />
+    <Compile Include="GamerServices\Platforms\Web\LIVEnLeaderboardWriter.cs" />
+    <Compile Include="GamerServices\Platforms\Web\LIVEnPartnerTokenReader.cs" />
+    <Compile Include="GamerServices\Platforms\Web\LIVEnPrivilegesReader.cs" />
+    <Compile Include="GamerServices\Platforms\Web\LIVEnGamer.cs" />
+    <Compile Include="GamerServices\Platforms\Web\LIVEnProfileReader.cs" />
+    <Compile Include="GamerServices\Platforms\Web\LIVEnTask.cs" />
+    <Compile Include="GamerServices\Platforms\Web\XmlReaderHelper.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\Empyreal96\Desktop\WINDOW~1\100~1.150\MICROS~2.CBS\ARM_MI~1.297\windows\System32\MIBB65~1.DLL-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D5F5D4DF-0521-4CBA-92DA-7D645E18973B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Microsoft.Xna.Framework.Game</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <ApplicationVersion>4.0.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Microsoft.Xna.Framework</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Phone">
+      <HintPath>lib\MIF409~1.DLL</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Phone.Interop">
+      <HintPath>lib\MI93EA~1.DLL</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework">
+      <HintPath>lib\MIA915~1.DLL</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.GamerServices">
+      <HintPath>lib\MI5CF0~1.DLL</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Graphics">
+      <HintPath>lib\MI1FF1~1.DLL</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Input.Touch">
+      <HintPath>lib\MI3BB0~1.DLL</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Windows" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DispatcherTimerWin32.cs" />
+    <Compile Include="DrawableGameComponent.cs" />
+    <Compile Include="PreparingDeviceSettingsEventArgs.cs" />
+    <Compile Include="Game.cs" />
+    <Compile Include="GameComponent.cs" />
+    <Compile Include="GameComponentCollectionEventArgs.cs" />
+    <Compile Include="GameComponentCollection.cs" />
+    <Compile Include="GameHost.cs" />
+    <Compile Include="GameServiceContainer.cs" />
+    <Compile Include="GameTime.cs" />
+    <Compile Include="GameWindow.cs" />
+    <Compile Include="GraphicsDeviceInformation.cs" />
+    <Compile Include="GraphicsDeviceInformationComparer.cs" />
+    <Compile Include="IGraphicsDeviceManager.cs" />
+    <Compile Include="GraphicsDeviceManager.cs" />
+    <Compile Include="IDrawable.cs" />
+    <Compile Include="DrawOrderComparer.cs" />
+    <Compile Include="IGameComponent.cs" />
+    <Compile Include="IUpdateable.cs" />
+    <Compile Include="UpdateOrderComparer.cs" />
+    <Compile Include="LaunchParameters.cs" />
+    <Compile Include="Resources.cs" />
+    <Compile Include="TaskExitCode.cs" />
+    <Compile Include="MobileGameHost.cs" />
+    <Compile Include="MobileGameWindow.cs" />
+    <Compile Include="MsgTimerCallback.cs" />
+    <Compile Include="MobileSafeNativeMethods.cs" />
+    <Compile Include="MobileNativeMethods.cs" />
+    <Compile Include="XnaGameApplication.cs" />
+    <Compile Include="GamerServices\GamerServicesComponent.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Game\Resources.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

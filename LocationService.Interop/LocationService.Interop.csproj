@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\Empyreal96\Desktop\WINDOW~1\100~1.150\MICROS~2.CBS\ARM_MI~1.297\windows\System32\LOCATI~3.DLL-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0A273A75-5D2D-4AD6-A6BC-BF6024B621CD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>LocationService.Interop</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>LocationServiceInterop</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="ILocationManager.cs" />
+    <Compile Include="ILocationSession.cs" />
+    <Compile Include="LOCATIONREQUEST.cs" />
+    <Compile Include="IGeofenceAppBoundary.cs" />
+    <Compile Include="_FILETIME.cs" />
+    <Compile Include="GEOLOCATION_INFO.cs" />
+    <Compile Include="LocationManager.cs" />
+    <Compile Include="LocationManagerClass.cs" />
+    <Compile Include="ILocationInformation.cs" />
+    <Compile Include="LOCATIONREQUEST_SESSIONTYPE.cs" />
+    <Compile Include="__MIDL___MIDL_itf_locationframework_0000_0000_0002.cs" />
+    <Compile Include="__MIDL___MIDL_itf_locationframework_0000_0000_0001.cs" />
+    <Compile Include="LOCATION_POSITIONINGENGINE.cs" />
+    <Compile Include="GEOFENCE.cs" />
+    <Compile Include="GEOFENCE_ID.cs" />
+    <Compile Include="LOCATION_TRIGGER_TYPE.cs" />
+    <Compile Include="GEOFENCE_MONITORING_STATUS.cs" />
+    <Compile Include="LOCATION_READING.cs" />
+    <Compile Include="POSITIONINFO_COORDINATE.cs" />
+    <Compile Include="POSITIONINFO_STATUS.cs" />
+    <Compile Include="LOCATIONREQUEST_SINGLESHOT.cs" />
+    <Compile Include="LOCATIONREQUEST_DISTANCETRACKING.cs" />
+    <Compile Include="LOCATIONREQUEST_PERIODICTRACKING.cs" />
+    <Compile Include="LOCATIONREQUEST_ACCURACYTYPE.cs" />
+    <Compile Include="POSITIONINFO_ACCURACY.cs" />
+    <Compile Include="POSITIONINFO_SATELLITES.cs" />
+    <Compile Include="ILocationVenueInformation.cs" />
+    <Compile Include="POSITIONINFO_SATELLITE_DATA.cs" />
+    <Compile Include="GEOFENCE_INFORMATION.cs" />
+    <Compile Include="GEOFENCE_REPORT.cs" />
+    <Compile Include="GEOFENCE_REMOVAL_REASON.cs" />
+    <Compile Include="GEOFENCE_MONITORED_STATES.cs" />
+    <Compile Include="GEOREGION.cs" />
+    <Compile Include="GEOFENCE_TRIGGERED_STATE.cs" />
+    <Compile Include="GEOREGION_TYPE.cs" />
+    <Compile Include="_REGION.cs" />
+    <Compile Include="GEOCIRCLE.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

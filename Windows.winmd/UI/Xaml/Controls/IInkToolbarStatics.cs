@@ -1,0 +1,30 @@
+﻿// Decompiled with JetBrains decompiler
+// Type: Windows.UI.Xaml.Controls.IInkToolbarStatics
+// Assembly: Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime
+// MVID: 806AFA92-BECA-4A21-B50F-752CC54B3430
+// Assembly location: C:\Users\Empyreal96\Desktop\Windows 10 Mobile\winmd\Windows.WinMD
+
+using Windows.Foundation;
+using Windows.Foundation.Metadata;
+
+namespace Windows.UI.Xaml.Controls
+{
+  [ContractVersion(typeof (UniversalApiContract), 196608)]
+  [WebHostHidden]
+  [ExclusiveTo(typeof (InkToolbar))]
+  [Guid(2746520507, 52047, 20075, 163, 61, 241, 30, 122, 41, 94, 250)]
+  internal interface IInkToolbarStatics
+  {
+    DependencyProperty InitialControlsProperty { get; }
+
+    DependencyProperty ChildrenProperty { get; }
+
+    DependencyProperty ActiveToolProperty { get; }
+
+    DependencyProperty InkDrawingAttributesProperty { get; }
+
+    DependencyProperty IsRulerButtonCheckedProperty { get; }
+
+    DependencyProperty TargetInkCanvasProperty { get; }
+  }
+}

@@ -1,0 +1,31 @@
+﻿// Decompiled with JetBrains decompiler
+// Type: System.Data.SqlServerCe.SETABLEATTRIBOPS
+// Assembly: Microsoft.Phone.Data.Internal, Version=8.0.0.0, Culture=neutral, PublicKeyToken=24eec0d8c86cda1e
+// MVID: 7C603BAB-2692-41A5-9823-E2E1FFE181D1
+// Assembly location: C:\Users\Empyreal96\Desktop\WINDOW~1\100~1.150\MICROS~2.CBS\ARM_MI~1.297\windows\System32\MI5246~1.DLL
+
+namespace System.Data.SqlServerCe
+{
+  [Flags]
+  internal enum SETABLEATTRIBOPS : uint
+  {
+    ALLOWALL = 0,
+    TABLERENAME = 1,
+    TABLEDELETE = 2,
+    COLUMNCREATE = 4,
+    COLUMNRENAME = 8,
+    COLUMNDELETE = 16, // 0x00000010
+    INDEXCREATE = 32, // 0x00000020
+    INDEXRENAME = 64, // 0x00000040
+    INDEXDELETE = 128, // 0x00000080
+    CONSTRAINTCREATE = 256, // 0x00000100
+    CONSTRAINTDELETE = 512, // 0x00000200
+    PKCREATE = 2048, // 0x00000800
+    PKRENAME = 4096, // 0x00001000
+    PKDELETE = 8192, // 0x00002000
+    ALTERDEFAULTS = 16384, // 0x00004000
+    SWAPCOLUMNORDINALS = 32768, // 0x00008000
+    ALLOWNONE = 2147483648, // 0x80000000
+    NEEDEDBITS = 2147549183, // 0x8000FFFF
+  }
+}

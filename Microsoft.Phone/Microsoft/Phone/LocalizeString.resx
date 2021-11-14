@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ShellTileTemplateMismatch" xml:space="preserve">
+    <value>Template type mismatch.  You can only update the tile using the same template it was created with.</value>
+  </data>
+  <data name="PushErrorTypeChannelOpenFailed" xml:space="preserve">
+    <value>The channel does not exist, but could not be opened.  Try opening the channel again.</value>
+  </data>
+  <data name="PushNotificationChannelBindingExists" xml:space="preserve">
+    <value>BindToShellTile or BindToShellToast failed because it is already bound to the channel.  Check the IsShellToastBound or IsShellTileBound properties or UnbindToShellToast or UnbindToShellTile before binding again.</value>
+  </data>
+  <data name="PushNotificationChannelQuotaExceeded" xml:space="preserve">
+    <value>The maximum number of channels have already been opened on this device.  A channel must be removed before a new one can be opened.</value>
+  </data>
+  <data name="SocketAlreadyBound" xml:space="preserve">
+    <value>Socket is already bound to a network interface</value>
+  </data>
+  <data name="CreateTileRestricted" xml:space="preserve">
+    <value>Tiles can only be created when the application is in the foreground</value>
+  </data>
+  <data name="NetworkNotificationRegistrationFailed" xml:space="preserve">
+    <value>Network change Notification could not be registered</value>
+  </data>
+  <data name="PushErrorTypeMessageBadContent" xml:space="preserve">
+    <value>A remote URL was specified in the tile notification payload and one of the following conditions was not met: 1) It was not http://, 2) the host name exceeded 256 characters, 3) the URL exceeded 2055 characters, 4) the domain was not specified in the allowed domains collection.</value>
+  </data>
+  <data name="ShellInvalidInterval" xml:space="preserve">
+    <value>The specified interval is not allowed.  Check the documentation for allowed intervals.</value>
+  </data>
+  <data name="PushNotificationChannelBindFailed" xml:space="preserve">
+    <value>BindToShellTile or BindToShellToast failed.  Try binding again.</value>
+  </data>
+  <data name="InvalidNetworkInterfaceError" xml:space="preserve">
+    <value>Invalid Network Interface</value>
+  </data>
+  <data name="PushNotificationChannelExists" xml:space="preserve">
+    <value>Open failed because the channel was already open.  You can find an open channel by calling the Find method.</value>
+  </data>
+  <data name="CellularConnectionNotAllowed" xml:space="preserve">
+    <value>Use of cellular connection from resource intensive agent is not allowed</value>
+  </data>
+  <data name="ShellInvalidRemoteImageUri" xml:space="preserve">
+    <value>The specified remote image URI is invalid.  Only well formed HTTP URIs to JPG or PNG files are allowed.  HTTPS and other URI types are not allowed.</value>
+  </data>
+  <data name="PushErrorTypeNotificationRateTooHigh" xml:space="preserve">
+    <value>The rate of incoming notifications is currently too high.  Slow the rate of incoming notifications to avoid dropped messages.</value>
+  </data>
+  <data name="NameResolutionOperationAborted" xml:space="preserve">
+    <value>Name Resolution Operation Aborted</value>
+  </data>
+  <data name="PushErrorTypePowerLevelChanged" xml:space="preserve">
+    <value>This has been deprecated as push client no longer takes any action based on any power states.</value>
+  </data>
+  <data name="NetworkOperationFailedError" xml:space="preserve">
+    <value>Operation Failed</value>
+  </data>
+  <data name="PushNotificationChannelServerUnavailable" xml:space="preserve">
+    <value>The push client service is temporarily unavailable.  Try the operation again later.</value>
+  </data>
+  <data name="NetworkSelectionRequirementFailed" xml:space="preserve">
+    <value>Requirement for network selection could not be set</value>
+  </data>
+  <data name="SocketNotConnected" xml:space="preserve">
+    <value>Socket is not connected or bound</value>
+  </data>
+  <data name="WebRequestAlreadyFinished" xml:space="preserve">
+    <value>WebRequest is already finished</value>
+  </data>
+  <data name="ShellInvalidUri" xml:space="preserve">
+    <value>The specified local image URI is invalid.  Only well formed local URIs to JPG or PNG files are allowed.</value>
+  </data>
+  <data name="PushNotificationTileUriBindFailed" xml:space="preserve">
+    <value>A remote URL was specified in the allowed domains collection and one of the following conditions was not met: 1) It was not http://, 2) the host name exceeded 256 characters, 3) the URL exceeded 2055 characters.</value>
+  </data>
+  <data name="InvalidWebBrowserSourceUrl" xml:space="preserve">
+    <value>Source Url of WebBrowser Control is invalid</value>
+  </data>
+  <data name="PushErrorTypePayloadFormatInvalid" xml:space="preserve">
+    <value>The XML payload contains invalid or improperly formatted XML or the notification type specified in the header does not match the payload type used.  The channel has been closed.  Check your XML payload for errors and reopen the channel to obtain a new URI.</value>
+  </data>
+  <data name="PushErrorTypeUnknown" xml:space="preserve">
+    <value>An internal error has occurred and could not be recovered.  A device reboot may be necessary.</value>
+  </data>
+  <data name="PushNotificationChannelOpenFailed" xml:space="preserve">
+    <value>The channel does not exist, but could not be opened.  Try opening the channel again.</value>
+  </data>
+  <data name="PushNotificationChannelNotOpened" xml:space="preserve">
+    <value>The channel has not yet been opened.  You must open the channel before trying this operation.</value>
+  </data>
+  <data name="NetworkSelectionPreferencesFailed" xml:space="preserve">
+    <value>Preferences for network selection could not be set</value>
+  </data>
+  <data name="NameResolutionNoHostAddresses" xml:space="preserve">
+    <value>Host name could not be resolved</value>
+  </data>
+</root>

@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\Empyreal96\Desktop\WINDOW~1\100~1.150\MICROS~2.CBS\ARM_MI~1.297\windows\System32\MI3BB0~1.DLL-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6A433C87-79A6-4E26-95BC-A5CA8820E630}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Microsoft.Xna.Framework.Input.Touch</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <ApplicationVersion>4.0.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Microsoft.Xna.Framework.Input.Touch</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Phone.Interop">
+      <HintPath>lib\MI93EA~1.DLL</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework">
+      <HintPath>lib\MIA915~1.DLL</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Windows" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GestureType.cs" />
+    <Compile Include="GestureSample.cs" />
+    <Compile Include="ProcessTouchInfoDelegate.cs" />
+    <Compile Include="TouchSessionConfigSetting.cs" />
+    <Compile Include="GestureTypeInternal.cs" />
+    <Compile Include="GestureDataType.cs" />
+    <Compile Include="GestureHoldStatus.cs" />
+    <Compile Include="PointL.cs" />
+    <Compile Include="GestureTapData.cs" />
+    <Compile Include="GestureHoldData.cs" />
+    <Compile Include="GestureDragData.cs" />
+    <Compile Include="GesturePinchStretchData.cs" />
+    <Compile Include="GestureFlickData.cs" />
+    <Compile Include="GestureID.cs" />
+    <Compile Include="GestureFlags.cs" />
+    <Compile Include="TouchEventFlags.cs" />
+    <Compile Include="GestureScope.cs" />
+    <Compile Include="GestureInfoFlags.cs" />
+    <Compile Include="Matrix3X2.cs" />
+    <Compile Include="TouchContact.cs" />
+    <Compile Include="TouchContacts.cs" />
+    <Compile Include="TouchInfoBuffer.cs" />
+    <Compile Include="SafeTouchNativeMethods.cs" />
+    <Compile Include="UnsafeTouchNativeMethods.cs" />
+    <Compile Include="Touch.cs" />
+    <Compile Include="TouchCollection.cs" />
+    <Compile Include="TouchLocationState.cs" />
+    <Compile Include="TouchPanelCapabilities.cs" />
+    <Compile Include="TouchLocation.cs" />
+    <Compile Include="TouchPanel.cs" />
+    <Compile Include="XNAINPUT_TOUCH_LOCATION_STATE.cs" />
+    <Compile Include="TouchSession.cs" />
+    <Compile Include="FilterSession.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

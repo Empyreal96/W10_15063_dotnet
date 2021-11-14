@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\Empyreal96\Desktop\WINDOW~1\100~1.150\MICROS~2.CBS\ARM_MI~1.297\windows\System32\MIC25C~1.DLL-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9A83F841-0A83-40C7-8D8C-0E1CA61DB224}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Microsoft.Phone.Maps</AssemblyName>
+    <TargetFrameworkVersion>v8.0</TargetFrameworkVersion>
+    <ApplicationVersion>8.0.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Microsoft.Phone</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Phone.Interop">
+      <HintPath>lib\MI93EA~1.DLL</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Device" />
+    <Reference Include="System.Windows" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Automation\Peers\MapAutomationPeer.cs" />
+    <Compile Include="Maps\MapsApplicationContext.cs" />
+    <Compile Include="Maps\ColorHelper.cs" />
+    <Compile Include="Maps\DipHelper.cs" />
+    <Compile Include="Maps\EventId.cs" />
+    <Compile Include="Maps\EventLogger.cs" />
+    <Compile Include="Maps\MosConnectivityStatus.cs" />
+    <Compile Include="Maps\MapsSettings.cs" />
+    <Compile Include="Maps\Resources.cs" />
+    <Compile Include="Maps\Shim.cs" />
+    <Compile Include="Maps\MapControlCore.cs" />
+    <Compile Include="Maps\Unified.cs" />
+    <Compile Include="Maps\Converged.cs" />
+    <Compile Include="Maps\TileHostInterfaceInterop.cs" />
+    <Compile Include="Maps\Services\FinderCallbackDelegates.cs" />
+    <Compile Include="Maps\Services\FinderCallbacks.cs" />
+    <Compile Include="Maps\Services\FinderReverseCallbackDelegates.cs" />
+    <Compile Include="Maps\Services\FinderReverseCallbacksThunk.cs" />
+    <Compile Include="Maps\Services\FinderTest.cs" />
+    <Compile Include="Maps\Services\IFinderModel.cs" />
+    <Compile Include="Maps\Services\IRouterModel.cs" />
+    <Compile Include="Maps\Services\RouteManeuverInstructionKind.cs" />
+    <Compile Include="Maps\Services\QueryStatus.cs" />
+    <Compile Include="Maps\Services\IRoutePath.cs" />
+    <Compile Include="Maps\Services\MapAddress.cs" />
+    <Compile Include="Maps\Services\LocationInformation.cs" />
+    <Compile Include="Maps\Services\MapLocation.cs" />
+    <Compile Include="Maps\Services\RouteManeuver.cs" />
+    <Compile Include="Maps\Services\TrafficCircleRouteManeuver.cs" />
+    <Compile Include="Maps\Services\RouteLeg.cs" />
+    <Compile Include="Maps\Services\Route.cs" />
+    <Compile Include="Maps\Services\MarshaledAddress.cs" />
+    <Compile Include="Maps\Services\MarshaledLocationInformation.cs" />
+    <Compile Include="Maps\Services\MarshaledLocation.cs" />
+    <Compile Include="Maps\Services\MarshaledRouteManeuver.cs" />
+    <Compile Include="Maps\Services\MarshaledRoutePath.cs" />
+    <Compile Include="Maps\Services\MarshaledRouteLeg.cs" />
+    <Compile Include="Maps\Services\MarshaledRoute.cs" />
+    <Compile Include="Maps\Services\MarshaledMapServicesTypeConverter.cs" />
+    <Compile Include="Maps\Services\MOSFinder.cs" />
+    <Compile Include="Maps\Services\AgFinderManagedAdapter.cs" />
+    <Compile Include="Maps\Services\AgFinderSafeHandle.cs" />
+    <Compile Include="Maps\Services\MOSRouter.cs" />
+    <Compile Include="Maps\Services\AgRouterManagedAdapter.cs" />
+    <Compile Include="Maps\Services\RouteSafeHandle.cs" />
+    <Compile Include="Maps\Services\AgRouterSafeHandle.cs" />
+    <Compile Include="Maps\Services\TravelMode.cs" />
+    <Compile Include="Maps\Services\RouteOptimization.cs" />
+    <Compile Include="Maps\Services\QueryCompletedEventArgs`1.cs" />
+    <Compile Include="Maps\Services\Query`1.cs" />
+    <Compile Include="Maps\Services\ReverseGeocodeQuery.cs" />
+    <Compile Include="Maps\Services\RouteQuery.cs" />
+    <Compile Include="Maps\Services\GeocodeQuery.cs" />
+    <Compile Include="Maps\Services\RouterCallbackDelegates.cs" />
+    <Compile Include="Maps\Services\RouterCallbacks.cs" />
+    <Compile Include="Maps\Services\RouterReverseCallbackDelegates.cs" />
+    <Compile Include="Maps\Services\RouterReverseCallbacksThunk.cs" />
+    <Compile Include="Maps\Controls\CollectionManager`1.cs" />
+    <Compile Include="Maps\Controls\GeoCoordinateCollection.cs" />
+    <Compile Include="Maps\Controls\IMapModel.cs" />
+    <Compile Include="Maps\Controls\IMapOverlayModel.cs" />
+    <Compile Include="Maps\Controls\IMapRoute.cs" />
+    <Compile Include="Maps\Controls\InstanceRegistry`1.cs" />
+    <Compile Include="Maps\Controls\ITileSourceModel.cs" />
+    <Compile Include="Maps\Controls\MapVersion.cs" />
+    <Compile Include="Maps\Controls\MapCompatibility.cs" />
+    <Compile Include="Maps\Controls\MapLifetime.cs" />
+    <Compile Include="Maps\Controls\MapLifeTimeV8.cs" />
+    <Compile Include="Maps\Controls\MapLifeTimeV8NoUI.cs" />
+    <Compile Include="Maps\Controls\MapLifeTimeV8NoOp.cs" />
+    <Compile Include="Maps\Controls\MapLifeTimeV8UnitTest.cs" />
+    <Compile Include="Maps\Controls\LocationRectangle.cs" />
+    <Compile Include="Maps\Controls\GestureType.cs" />
+    <Compile Include="Maps\Controls\PhysicsHelper.cs" />
+    <Compile Include="Maps\Controls\ManipulationHandler.cs" />
+    <Compile Include="Maps\Controls\GestureEventArgs.cs" />
+    <Compile Include="Maps\Controls\TapGestureEventArgs.cs" />
+    <Compile Include="Maps\Controls\DoubleTapGestureEventArgs.cs" />
+    <Compile Include="Maps\Controls\TapAndHoldGestureEventArgs.cs" />
+    <Compile Include="Maps\Controls\PanGestureEventArgs.cs" />
+    <Compile Include="Maps\Controls\FlickGestureEventArgs.cs" />
+    <Compile Include="Maps\Controls\ScaleGestureEventArgs.cs" />
+    <Compile Include="Maps\Controls\PinchGestureEventArgs.cs" />
+    <Compile Include="Maps\Controls\StretchGestureEventArgs.cs" />
+    <Compile Include="Maps\Controls\GestureEndedEventArgs.cs" />
+    <Compile Include="Maps\Controls\Timeout.cs" />
+    <Compile Include="Maps\Controls\Map.cs" />
+    <Compile Include="Maps\Controls\MapCallbackDelegates.cs" />
+    <Compile Include="Maps\Controls\MapCallbacks.cs" />
+    <Compile Include="Maps\Controls\IMapElementModel.cs" />
+    <Compile Include="Maps\Controls\MapElement.cs" />
+    <Compile Include="Maps\Controls\MOSMapObject.cs" />
+    <Compile Include="Maps\Controls\MapObjectAdapter.cs" />
+    <Compile Include="Maps\Controls\MapObjectSafeHandle.cs" />
+    <Compile Include="Maps\Controls\MapElementCollectionManager.cs" />
+    <Compile Include="Maps\Controls\MapEventArgs.cs" />
+    <Compile Include="Maps\Controls\MapCenterChangedEventArgs.cs" />
+    <Compile Include="Maps\Controls\MapTransformCenterChangedEventArgs.cs" />
+    <Compile Include="Maps\Controls\MapZoomLevelChangedEventArgs.cs" />
+    <Compile Include="Maps\Controls\MapHeadingChangedEventArgs.cs" />
+    <Compile Include="Maps\Controls\MapPitchChangedEventArgs.cs" />
+    <Compile Include="Maps\Controls\MapCartographicModeChangedEventArgs.cs" />
+    <Compile Include="Maps\Controls\MapColorModeChangedEventArgs.cs" />
+    <Compile Include="Maps\Controls\MapLandmarksEnabledChangedEventArgs.cs" />
+    <Compile Include="Maps\Controls\MapPedestrianFeaturesEnabledChangedEventArgs.cs" />
+    <Compile Include="Maps\Controls\MapViewChangingEventArgs.cs" />
+    <Compile Include="Maps\Controls\MapViewChangedEventArgs.cs" />
+    <Compile Include="Maps\Controls\MapResolveCompletedEventArgs.cs" />
+    <Compile Include="Maps\Controls\CreateSnapshotCompletedEventArgs.cs" />
+    <Compile Include="Maps\Controls\MapGestureEventArgs.cs" />
+    <Compile Include="Maps\Controls\TapMapGestureEventArgs.cs" />
+    <Compile Include="Maps\Controls\DoubleTapMapGestureEventArgs.cs" />
+    <Compile Include="Maps\Controls\TapAndHoldMapGestureEventArgs.cs" />
+    <Compile Include="Maps\Controls\PanMapGestureEventArgs.cs" />
+    <Compile Include="Maps\Controls\PinchStretchMapGestureEventArgs.cs" />
+    <Compile Include="Maps\Controls\FlickMapGestureEventArgs.cs" />
+    <Compile Include="Maps\Controls\MapModelNoOp.cs" />
+    <Compile Include="Maps\Controls\MapModelNoUI.cs" />
+    <Compile Include="Maps\Controls\UnitTestEventArgs.cs" />
+    <Compile Include="Maps\Controls\MapModelUnitTests.cs" />
+    <Compile Include="Maps\Controls\MapOverlay.cs" />
+    <Compile Include="Maps\Controls\MapLayer.cs" />
+    <Compile Include="Maps\Controls\MapOverlayPresenter.cs" />
+    <Compile Include="Maps\Controls\MOSMapOverlayModel.cs" />
+    <Compile Include="Maps\Controls\AgMapOverlayModelAdapter.cs" />
+    <Compile Include="Maps\Controls\AgMapOverlayModelSafeHandle.cs" />
+    <Compile Include="Maps\Controls\ExternalAnimationHandle.cs" />
+    <Compile Include="Maps\Controls\RootMapLayer.cs" />
+    <Compile Include="Maps\Controls\MapLayerPanel.cs" />
+    <Compile Include="Maps\Controls\RootLayerManager.cs" />
+    <Compile Include="Maps\Controls\MapLayerManager.cs" />
+    <Compile Include="Maps\Controls\IMapPolylineModel.cs" />
+    <Compile Include="Maps\Controls\MapPolyline.cs" />
+    <Compile Include="Maps\Controls\MOSMapPolylineModel.cs" />
+    <Compile Include="Maps\Controls\MapPolylineAdapter.cs" />
+    <Compile Include="Maps\Controls\IMapPolygonModel.cs" />
+    <Compile Include="Maps\Controls\MapPolygon.cs" />
+    <Compile Include="Maps\Controls\MOSMapPolygonModel.cs" />
+    <Compile Include="Maps\Controls\MapPolygonAdapter.cs" />
+    <Compile Include="Maps\Controls\MapPresentationContainer.cs" />
+    <Compile Include="Maps\Controls\MapReverseCallbackDelegates.cs" />
+    <Compile Include="Maps\Controls\MapReverseCallbacksThunk.cs" />
+    <Compile Include="Maps\Controls\MapRoute.cs" />
+    <Compile Include="Maps\Controls\MOSMapRoute.cs" />
+    <Compile Include="Maps\Controls\MapRouteAdapter.cs" />
+    <Compile Include="Maps\Controls\MapRouteSafeHandle.cs" />
+    <Compile Include="Maps\Controls\MapCartographicMode.cs" />
+    <Compile Include="Maps\Controls\MapColorMode.cs" />
+    <Compile Include="Maps\Controls\MapAnimationKind.cs" />
+    <Compile Include="Maps\Controls\RouteViewKind.cs" />
+    <Compile Include="Maps\Controls\MapWatermarkMode.cs" />
+    <Compile Include="Maps\Controls\MarshaledGeoCoordinates.cs" />
+    <Compile Include="Maps\Controls\MarshaledBoundingRectangle.cs" />
+    <Compile Include="Maps\Controls\MarshaledMargins.cs" />
+    <Compile Include="Maps\Controls\MarshaledTypeConverter.cs" />
+    <Compile Include="Maps\Controls\MOSMapModel.cs" />
+    <Compile Include="Maps\Controls\AgMapControlManagedAdapter.cs" />
+    <Compile Include="Maps\Controls\AgMapControlSafeHandle.cs" />
+    <Compile Include="Maps\Controls\MOSTileSource.cs" />
+    <Compile Include="Maps\Controls\AgTileSourceManagedAdapter.cs" />
+    <Compile Include="Maps\Controls\AgTileSourceSafeHandle.cs" />
+    <Compile Include="Maps\Controls\QuadKey.cs" />
+    <Compile Include="Maps\Controls\Range`1.cs" />
+    <Compile Include="Maps\Controls\InteropDestroyFunctions.cs" />
+    <Compile Include="Maps\Controls\SafeHandle`1.cs" />
+    <Compile Include="Maps\Controls\FakeTileHost.cs" />
+    <Compile Include="Maps\Controls\FakeExternalInputContainer.cs" />
+    <Compile Include="Maps\Controls\TileSource.cs" />
+    <Compile Include="Maps\Controls\TileSourceCallbackDelegates.cs" />
+    <Compile Include="Maps\Controls\TileSourceCallbacks.cs" />
+    <Compile Include="Maps\Controls\TileSourceCollectionManager.cs" />
+    <Compile Include="Maps\Controls\TileSourceReverseCallbackDelegates.cs" />
+    <Compile Include="Maps\Controls\TileSourceReverseCallbacksThunk.cs" />
+    <Compile Include="Maps\Controls\GeoCoordinateConverter.cs" />
+    <Compile Include="Maps\Controls\GeoCoordinateCollectionConverter.cs" />
+    <Compile Include="Maps\Controls\MapPointConverter.cs" />
+    <Compile Include="Maps\Controls\LocationRectangleConverter.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="tokenmaps.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Maps\Resources.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

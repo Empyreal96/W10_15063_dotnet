@@ -1,0 +1,23 @@
+﻿// Decompiled with JetBrains decompiler
+// Type: Microsoft.Phone.Shell.PM_TILE_HUBTYPE
+// Assembly: Microsoft.Phone, Version=8.0.0.0, Culture=neutral, PublicKeyToken=24eec0d8c86cda1e
+// MVID: 6F92089B-2722-49C2-83AA-CF419958F32D
+// Assembly location: C:\Users\Empyreal96\Desktop\WINDOW~1\100~1.150\MICROS~2.CBS\ARM_MI~1.297\windows\System32\MIF409~1.DLL
+
+using System;
+
+namespace Microsoft.Phone.Shell
+{
+  [Flags]
+  internal enum PM_TILE_HUBTYPE : uint
+  {
+    PM_TILE_HUBTYPE_MUSIC = 1,
+    PM_TILE_HUBTYPE_MOSETTINGS = 268435456, // 0x10000000
+    PM_TILE_HUBTYPE_GAMES = 536870912, // 0x20000000
+    PM_TILE_HUBTYPE_APPLIST = 1073741824, // 0x40000000
+    PM_TILE_HUBTYPE_STARTMENU = 2147483648, // 0x80000000
+    PM_TILE_HUBTYPE_LOCKSCREEN = 16777216, // 0x01000000
+    PM_TILE_HUBTYPE_KIDZONE = 33554432, // 0x02000000
+    PM_TILE_HUBTYPE_INVALID = PM_TILE_HUBTYPE_KIDZONE | PM_TILE_HUBTYPE_MUSIC, // 0x02000001
+  }
+}

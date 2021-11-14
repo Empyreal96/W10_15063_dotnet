@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\Empyreal96\Desktop\Windows 10 Mobile\winmd\PhoneInternal.Experiences.winmd-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{791904F8-4A58-42C2-A8D1-3109D8B23645}</ProjectGuid>
+    <OutputType>WinMD</OutputType>
+    <AssemblyName>PhoneInternal.Experiences</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <ApplicationVersion>255.255.255.255</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>PhoneInternal.Experiences</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.ObjectModel" />
+    <Reference Include="System.Runtime" />
+    <Reference Include="System.Runtime.InteropServices.WindowsRuntime" />
+    <Reference Include="System.Runtime.WindowsRuntime" />
+    <Reference Include="System.Runtime.WindowsRuntime.UI.Xaml" />
+    <Reference Include="Windows">
+      <HintPath>lib\Windows.WinMD</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sync\AccountQueryFilter.cs" />
+    <Compile Include="Sync\AccountStatus.cs" />
+    <Compile Include="Sync\AccountChangeType.cs" />
+    <Compile Include="Sync\AccountType.cs" />
+    <Compile Include="Sync\PartnershipType.cs" />
+    <Compile Include="Sync\SyncErrorType.cs" />
+    <Compile Include="Sync\ServerType.cs" />
+    <Compile Include="Sync\AccountAuthType.cs" />
+    <Compile Include="Sync\ProtocolType.cs" />
+    <Compile Include="Sync\AccountSyncContentType.cs" />
+    <Compile Include="Sync\ExchangeServerAuthType.cs" />
+    <Compile Include="Sync\AccountSyncSchedule.cs" />
+    <Compile Include="Sync\AutoConfigServerFeedBack.cs" />
+    <Compile Include="Sync\AgeFilterRange.cs" />
+    <Compile Include="Sync\InternalContract.cs" />
+    <Compile Include="Sync\AccountSyncContentFreshness.cs" />
+    <Compile Include="Sync\IAccountChangedEventArgs.cs" />
+    <Compile Include="Sync\IAccountsManagerStatics.cs" />
+    <Compile Include="Sync\Account.cs" />
+    <Compile Include="Sync\WebAuthSettings.cs" />
+    <Compile Include="Sync\AccountChangedEventArgs.cs" />
+    <Compile Include="Sync\IAccountPropertiesStatics.cs" />
+    <Compile Include="Sync\IAccount.cs" />
+    <Compile Include="Sync\AccountErrorInformation.cs" />
+    <Compile Include="Sync\AccountSyncScheduleInformation.cs" />
+    <Compile Include="Sync\IEmailServerSettingsDiscovery.cs" />
+    <Compile Include="Sync\ExchangeServerDiscoveryResult.cs" />
+    <Compile Include="Sync\InternetMailServerDiscoveryResult.cs" />
+    <Compile Include="Sync\IExchangeServerDiscoveryResult.cs" />
+    <Compile Include="Sync\IInternetMailServerDiscoveryResult.cs" />
+    <Compile Include="Sync\IWebAuthSettings.cs" />
+    <Compile Include="Sync\IAccountErrorInformation.cs" />
+    <Compile Include="Sync\IAccountSyncScheduleInformation.cs" />
+    <Compile Include="Sync\AccountsManager.cs" />
+    <Compile Include="Sync\AccountProperties.cs" />
+    <Compile Include="Sync\EmailServerSettingsDiscovery.cs" />
+    <Compile Include="AppDiscovery\ExtensionID.cs" />
+    <Compile Include="AppDiscovery\IAppData.cs" />
+    <Compile Include="AppDiscovery\IExtensionData.cs" />
+    <Compile Include="AppDiscovery\IVoipExtensionData.cs" />
+    <Compile Include="AppDiscovery\IAppDiscoveryStatics.cs" />
+    <Compile Include="AppDiscovery\AppData.cs" />
+    <Compile Include="AppDiscovery\ExtensionData.cs" />
+    <Compile Include="AppDiscovery\VoipExtensionData.cs" />
+    <Compile Include="AppDiscovery\AppDiscovery.cs" />
+    <Compile Include="Calendar\IAppointmentStoreStaticsInternal.cs" />
+    <Compile Include="Calendar\SearchAppointmentResult.cs" />
+    <Compile Include="Calendar\ISearchAppointmentResult.cs" />
+    <Compile Include="Calendar\AppointmentStoreInternal.cs" />
+    <Compile Include="Chat\IChatMessageInternal.cs" />
+    <Compile Include="Chat\IChatMessageStoreInternal.cs" />
+    <Compile Include="Media\AudioType.cs" />
+    <Compile Include="Media\VideoType.cs" />
+    <Compile Include="Media\StorageLocationFlags.cs" />
+    <Compile Include="Media\StorageLocationFilter.cs" />
+    <Compile Include="Media\TrackOrder.cs" />
+    <Compile Include="Media\SpecialPictureAlbumType.cs" />
+    <Compile Include="Media\DeleteOption.cs" />
+    <Compile Include="Media\MediaRating.cs" />
+    <Compile Include="Media\CopyDestinationType.cs" />
+    <Compile Include="Media\NotificationTypeFlags.cs" />
+    <Compile Include="Media\PhotoStreamType.cs" />
+    <Compile Include="Media\BulkCopyStateName.cs" />
+    <Compile Include="Media\IArtistPropertiesStatics.cs" />
+    <Compile Include="Media\IAlbumPropertiesStatics.cs" />
+    <Compile Include="Media\IAudioPropertiesStatics.cs" />
+    <Compile Include="Media\IGenrePropertiesStatics.cs" />
+    <Compile Include="Media\IPlaylistPropertiesStatics.cs" />
+    <Compile Include="Media\IVideoPropertiesStatics.cs" />
+    <Compile Include="Media\IVideoPropertiesWithGeoDataStatics.cs" />
+    <Compile Include="Media\IPicturePropertiesStatics.cs" />
+    <Compile Include="Media\IPictureAlbumPropertiesStatics.cs" />
+    <Compile Include="Media\IPodcastSeriesPropertiesStatics.cs" />
+    <Compile Include="Media\IEventPropertiesStatics.cs" />
+    <Compile Include="Media\ICartEntryPropertiesStatics.cs" />
+    <Compile Include="Media\IMediaItem.cs" />
+    <Compile Include="Media\IMediaItemProperties.cs" />
+    <Compile Include="Media\IMediaItemQueryResult.cs" />
+    <Compile Include="Media\IInternalOnlyDoNotUse_MediaItemQueryResult.cs" />
+    <Compile Include="Media\IAudio.cs" />
+    <Compile Include="Media\Artist.cs" />
+    <Compile Include="Media\Album.cs" />
+    <Compile Include="Media\PodcastSeries.cs" />
+    <Compile Include="Media\IAudioQueryResult.cs" />
+    <Compile Include="Media\Audio.cs" />
+    <Compile Include="Media\AudioQueryResult.cs" />
+    <Compile Include="Media\IAlbum.cs" />
+    <Compile Include="Media\IAlbumQueryResult.cs" />
+    <Compile Include="Media\AlbumQueryResult.cs" />
+    <Compile Include="Media\IArtist.cs" />
+    <Compile Include="Media\IArtistQueryResult.cs" />
+    <Compile Include="Media\ArtistQueryResult.cs" />
+    <Compile Include="Media\IGenre.cs" />
+    <Compile Include="Media\IGenreQueryResult.cs" />
+    <Compile Include="Media\Genre.cs" />
+    <Compile Include="Media\IPlaylist.cs" />
+    <Compile Include="Media\IPlaylistQueryResult.cs" />
+    <Compile Include="Media\Playlist.cs" />
+    <Compile Include="Media\IVideo.cs" />
+    <Compile Include="Media\PictureAlbum.cs" />
+    <Compile Include="Media\IVideoWithGeoData.cs" />
+    <Compile Include="Media\IVideoQueryResult.cs" />
+    <Compile Include="Media\Video.cs" />
+    <Compile Include="Media\IPicture.cs" />
+    <Compile Include="Media\IPictureQueryResult.cs" />
+    <Compile Include="Media\Picture.cs" />
+    <Compile Include="Media\IPictureAlbumQueryResult.cs" />
+    <Compile Include="Media\IEvent.cs" />
+    <Compile Include="Media\MediaItemQueryResult.cs" />
+    <Compile Include="Media\IEventQueryResult.cs" />
+    <Compile Include="Media\Event.cs" />
+    <Compile Include="Media\IPictureAlbum.cs" />
+    <Compile Include="Media\PictureAlbumQueryResult.cs" />
+    <Compile Include="Media\EventQueryResult.cs" />
+    <Compile Include="Media\IPodcastSeries.cs" />
+    <Compile Include="Media\VideoQueryResult.cs" />
+    <Compile Include="Media\IPodcastSeriesQueryResult.cs" />
+    <Compile Include="Media\ICartEntry.cs" />
+    <Compile Include="Media\ICartEntryQueryResult.cs" />
+    <Compile Include="Media\CartEntry.cs" />
+    <Compile Include="Media\IMediaStore.cs" />
+    <Compile Include="Media\GenreQueryResult.cs" />
+    <Compile Include="Media\PlaylistQueryResult.cs" />
+    <Compile Include="Media\PictureQueryResult.cs" />
+    <Compile Include="Media\PodcastSeriesQueryResult.cs" />
+    <Compile Include="Media\CartEntryQueryResult.cs" />
+    <Compile Include="Media\IMediaStoreManagerStatics.cs" />
+    <Compile Include="Media\MediaStore.cs" />
+    <Compile Include="Media\ArtistProperties.cs" />
+    <Compile Include="Media\AlbumProperties.cs" />
+    <Compile Include="Media\AudioProperties.cs" />
+    <Compile Include="Media\GenreProperties.cs" />
+    <Compile Include="Media\PlaylistProperties.cs" />
+    <Compile Include="Media\VideoProperties.cs" />
+    <Compile Include="Media\PictureProperties.cs" />
+    <Compile Include="Media\PictureAlbumProperties.cs" />
+    <Compile Include="Media\PodcastSeriesProperties.cs" />
+    <Compile Include="Media\EventProperties.cs" />
+    <Compile Include="Media\CartEntryProperties.cs" />
+    <Compile Include="Media\MediaStoreManager.cs" />
+    <Compile Include="OnlinePhotos\PhotoType.cs" />
+    <Compile Include="OnlinePhotos\AlbumType.cs" />
+    <Compile Include="OnlinePhotos\RequestPriority.cs" />
+    <Compile Include="OnlinePhotos\PendingUploadStatus.cs" />
+    <Compile Include="OnlinePhotos\UploadStatusDetails.cs" />
+    <Compile Include="OnlinePhotos\IOnlinePictureAlbumManager.cs" />
+    <Compile Include="OnlinePhotos\IOnlinePictureAlbumManagerStatics.cs" />
+    <Compile Include="OnlinePhotos\ISkyDrivePhotoManager.cs" />
+    <Compile Include="OnlinePhotos\ISkyDrivePhotoManagerStatics.cs" />
+    <Compile Include="OnlinePhotos\PendingUpload.cs" />
+    <Compile Include="OnlinePhotos\IPendingUpload.cs" />
+    <Compile Include="OnlinePhotos\OnlinePictureAlbumManager.cs" />
+    <Compile Include="OnlinePhotos\SkyDrivePhotoManager.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

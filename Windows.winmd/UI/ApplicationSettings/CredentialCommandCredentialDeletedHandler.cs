@@ -1,0 +1,15 @@
+﻿// Decompiled with JetBrains decompiler
+// Type: Windows.UI.ApplicationSettings.CredentialCommandCredentialDeletedHandler
+// Assembly: Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime
+// MVID: 806AFA92-BECA-4A21-B50F-752CC54B3430
+// Assembly location: C:\Users\Empyreal96\Desktop\Windows 10 Mobile\winmd\Windows.WinMD
+
+using Windows.Foundation;
+using Windows.Foundation.Metadata;
+
+namespace Windows.UI.ApplicationSettings
+{
+  [ContractVersion(typeof (UniversalApiContract), 65536)]
+  [Guid(1640030597, 2423, 18040, 180, 226, 152, 114, 122, 251, 238, 217)]
+  public delegate void CredentialCommandCredentialDeletedHandler(CredentialCommand command);
+}

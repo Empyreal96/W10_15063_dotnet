@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\Empyreal96\Desktop\WINDOW~1\100~1.150\MICROS~2.CBS\ARM_MI~1.297\windows\System32\MI93EA~1.DLL-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BF73FD6F-2BFF-4EE3-BA31-485516A6059E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Microsoft.Phone.Interop</AssemblyName>
+    <TargetFrameworkVersion>v8.0</TargetFrameworkVersion>
+    <ApplicationVersion>8.0.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Microsoft.Phone</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Windows" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AppPlatformVersion.cs" />
+    <Compile Include="AppPlatformVersions.cs" />
+    <Compile Include="QuirksMode.cs" />
+    <Compile Include="Info\DeviceStatusInterop.cs" />
+    <Compile Include="Info\DeviceTypes.cs" />
+    <Compile Include="Controls\WebBrowserCompatibility.cs" />
+    <Compile Include="Controls\GetCachedWebBrowserPropertiesCallback.cs" />
+    <Compile Include="Controls\InteropLifetime.cs" />
+    <Compile Include="Controls\InteropLifetime7.cs" />
+    <Compile Include="Controls\InteropLifetimeMango.cs" />
+    <Compile Include="Controls\IShrinkableEditActivationElement.cs" />
+    <Compile Include="Controls\IWebBrowserInterop.cs" />
+    <Compile Include="Controls\WebBrowserInteropCallbacks.cs" />
+    <Compile Include="Controls\NavigatingCallback.cs" />
+    <Compile Include="Controls\NavigateErrorCallback.cs" />
+    <Compile Include="Controls\NavigatedCallback.cs" />
+    <Compile Include="Controls\LoadCompletedCallback.cs" />
+    <Compile Include="Controls\ScriptNotifyCallback.cs" />
+    <Compile Include="Controls\FullScreenChangedCallback.cs" />
+    <Compile Include="Controls\GetFrameVerticalOffsetCallback.cs" />
+    <Compile Include="Controls\SIPStateChangeCallback.cs" />
+    <Compile Include="Controls\CanNavigateBackChangeCallback.cs" />
+    <Compile Include="Controls\CanNavigateForwardChangeCallback.cs" />
+    <Compile Include="Controls\WebBrowserNoOp.cs" />
+    <Compile Include="Controls\PanZoomContainer.cs" />
+    <Compile Include="Controls\MotionParameters.cs" />
+    <Compile Include="Controls\PhysicsConstants.cs" />
+    <Compile Include="Controls\WebBrowserDesignTime.cs" />
+    <Compile Include="Controls\WebBrowserDisconnected.cs" />
+    <Compile Include="Controls\WebBrowserInterop.cs" />
+    <Compile Include="Controls\NativeMethods.cs" />
+    <Compile Include="Controls\RegistryNativeMethods.cs" />
+    <Compile Include="Controls\Registry.cs" />
+    <Compile Include="Controls\WebBrowserInteropCanvas.cs" />
+    <Compile Include="Controls\WebBrowserExceptionHelper.cs" />
+    <Compile Include="BackgroundAudio\Interop\BackgroundAudioGUID.cs" />
+    <Compile Include="BackgroundAudio\Interop\IAudioTrack.cs" />
+    <Compile Include="BackgroundAudio\Interop\IAudioPlaybackManager.cs" />
+    <Compile Include="BackgroundAudio\Interop\IAudioPlaybackManagerCallback.cs" />
+    <Compile Include="BackgroundAudio\Interop\AudioPlaybackManagerInterop.cs" />
+    <Compile Include="BackgroundAudio\Interop\AudioTrackInterop.cs" />
+    <Compile Include="Tasks\IChooser.cs" />
+    <Compile Include="Interop\ComBridge.cs" />
+    <Compile Include="Interop\ComBridgeNativeMethods.cs" />
+    <Compile Include="Interop\PageNativeMethods.cs" />
+    <Compile Include="Interop\LocaleGroupSessionNativeMethods.cs" />
+    <Compile Include="Interop\ShellResources.cs" />
+    <Compile Include="Interop\Resources.cs" />
+    <Compile Include="Interop\Logging\LogFlags.cs" />
+    <Compile Include="Interop\Logging\SubsystemId.cs" />
+    <Compile Include="Interop\Logging\ShellInteropEventCode.cs" />
+    <Compile Include="Interop\Logging\Logger.cs" />
+    <Compile Include="Interop\Logging\NativeMethods.cs" />
+    <Compile Include="Shell\BaseStreamPersister.cs" />
+    <Compile Include="Shell\BaseTypesResolver.cs" />
+    <Compile Include="Shell\Interop\AppBarCallbackInfo.cs" />
+    <Compile Include="Shell\Interop\InteropExceptions.cs" />
+    <Compile Include="Shell\Interop\IAppBarInterop.cs" />
+    <Compile Include="Shell\Interop\ISysTrayInterop.cs" />
+    <Compile Include="Shell\Interop\IListInterop.cs" />
+    <Compile Include="Shell\Interop\Logging.cs" />
+    <Compile Include="Shell\Interop\NativeInteropHelper.cs" />
+    <Compile Include="Shell\Interop\NativeAppBarInteropWrapper.cs" />
+    <Compile Include="Shell\Interop\ApplicationBarMode.cs" />
+    <Compile Include="Shell\Interop\NativeAppBarMethods.cs" />
+    <Compile Include="Shell\Interop\NativeCallbackInteropWrapper.cs" />
+    <Compile Include="Shell\Interop\InteropCommandCallback.cs" />
+    <Compile Include="Shell\Interop\InteropEnterMenuCallback.cs" />
+    <Compile Include="Shell\Interop\InteropExitMenuCallback.cs" />
+    <Compile Include="Shell\Interop\SafeMenuListenerHandle.cs" />
+    <Compile Include="Shell\Interop\AppBarCallbackFunctionPointers.cs" />
+    <Compile Include="Shell\Interop\NativeCallbackMethods.cs" />
+    <Compile Include="Shell\Interop\NativeLetterboxWrapper.cs" />
+    <Compile Include="Shell\Interop\NativeListInteropWrapper.cs" />
+    <Compile Include="Shell\Interop\MenuBarItemType.cs" />
+    <Compile Include="Shell\Interop\MenuBarItemTypeExtensions.cs" />
+    <Compile Include="Shell\Interop\ImageBufferData.cs" />
+    <Compile Include="Shell\Interop\MenuItemData.cs" />
+    <Compile Include="Shell\Interop\NativeListMethods.cs" />
+    <Compile Include="Shell\Interop\NativeNavBarWrapper.cs" />
+    <Compile Include="Shell\Interop\NativeSystemTrayInteropWrapper.cs" />
+    <Compile Include="Shell\Interop\NativeSystemTrayMethods.cs" />
+    <Compile Include="Shell\Interop\DSC.cs" />
+    <Compile Include="Shell\Interop\DSCNative.cs" />
+    <Compile Include="Shell\Interop\LockStateChangeEventArgs.cs" />
+    <Compile Include="Shell\Interop\InvokeReturningEventArgs.cs" />
+    <Compile Include="Shell\Interop\VisibleRegionChangeEventArgs.cs" />
+    <Compile Include="Shell\Interop\UriInteropWrapper.cs" />
+    <Compile Include="Shell\Interop\WeakEventListener`1.cs" />
+    <Compile Include="Shell\Interop\NativeProtectedContent.cs" />
+    <Compile Include="Shell\Interop\NativeProtectedContentWrapper.cs" />
+    <Compile Include="TaskModel\Interop\ApplicationType.cs" />
+    <Compile Include="TaskModel\Interop\HostInformation.cs" />
+    <Compile Include="TaskModel\Interop\HostInfo.cs" />
+    <Compile Include="TaskModel\Interop\HostInfoNativeMethods.cs" />
+    <Compile Include="TaskModel\Interop\ParameterPropertyValueType.cs" />
+    <Compile Include="TaskModel\Interop\ParameterProperty.cs" />
+    <Compile Include="TaskModel\Interop\ParameterPropertyNativeMethods.cs" />
+    <Compile Include="TaskModel\Interop\ParameterPropertyBag.cs" />
+    <Compile Include="TaskModel\Interop\ParameterPropertyBagHandle.cs" />
+    <Compile Include="TaskModel\Interop\ParameterPropertyBagNativeMethods.cs" />
+    <Compile Include="TaskModel\Interop\TaskCallbacks.cs" />
+    <Compile Include="TaskModel\Interop\ChildTaskReturnedEventArgs.cs" />
+    <Compile Include="TaskModel\Interop\NavigationSystemKey.cs" />
+    <Compile Include="TaskModel\Interop\NavigationDirection.cs" />
+    <Compile Include="TaskModel\Interop\NavigationApplicationLayer.cs" />
+    <Compile Include="TaskModel\Interop\RECT.cs" />
+    <Compile Include="TaskModel\Interop\Orientations.cs" />
+    <Compile Include="TaskModel\Interop\ITaskFactory.cs" />
+    <Compile Include="TaskModel\Interop\TaskFactory.cs" />
+    <Compile Include="TaskModel\Interop\ITask.cs" />
+    <Compile Include="TaskModel\Interop\Task.cs" />
+    <Compile Include="TaskModel\Interop\TaskNativeMethods.cs" />
+    <Compile Include="TaskModel\Interop\SafeAppChromeHandle.cs" />
+    <Compile Include="TaskModel\Interop\ApplicationHostCallbacks.cs" />
+    <Compile Include="TaskModel\Interop\ApplicationHost.cs" />
+    <Compile Include="TaskModel\Interop\ApplicationHostNativeMethods.cs" />
+    <Compile Include="TaskModel\Interop\DispatchHelper.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="tokenie.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Interop\Resources.resx" />
+    <EmbeddedResource Include="Interop\ShellResources.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

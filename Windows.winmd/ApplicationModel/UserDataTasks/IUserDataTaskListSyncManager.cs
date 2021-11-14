@@ -1,0 +1,28 @@
+﻿// Decompiled with JetBrains decompiler
+// Type: Windows.ApplicationModel.UserDataTasks.IUserDataTaskListSyncManager
+// Assembly: Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime
+// MVID: 806AFA92-BECA-4A21-B50F-752CC54B3430
+// Assembly location: C:\Users\Empyreal96\Desktop\Windows 10 Mobile\winmd\Windows.WinMD
+
+using Windows.Foundation;
+using Windows.Foundation.Metadata;
+
+namespace Windows.ApplicationModel.UserDataTasks
+{
+  [ContractVersion(typeof (UniversalApiContract), 262144)]
+  [Guid(2388204181, 7631, 18079, 147, 236, 186, 72, 187, 85, 60, 107)]
+  [ExclusiveTo(typeof (UserDataTaskListSyncManager))]
+  internal interface IUserDataTaskListSyncManager
+  {
+    DateTime LastAttemptedSyncTime { get; set; }
+
+    DateTime LastSuccessfulSyncTime { get; set; }
+
+    UserDataTaskListSyncStatus Status { get; set; }
+
+    [RemoteAsync]
+    IAsyncOperation<bool> SyncAsync();
+
+    event TypedEventHandler<UserDataTaskListSyncManager, object> SyncStatusChanged;
+  }
+}

@@ -1,0 +1,18 @@
+﻿// Decompiled with JetBrains decompiler
+// Type: Windows.Media.Core.TimedTextWeight
+// Assembly: Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime
+// MVID: 806AFA92-BECA-4A21-B50F-752CC54B3430
+// Assembly location: C:\Users\Empyreal96\Desktop\Windows 10 Mobile\winmd\Windows.WinMD
+
+using Windows.Foundation;
+using Windows.Foundation.Metadata;
+
+namespace Windows.Media.Core
+{
+  [ContractVersion(typeof (UniversalApiContract), 65536)]
+  public enum TimedTextWeight
+  {
+    Normal = 400, // 0x00000190
+    Bold = 700, // 0x000002BC
+  }
+}

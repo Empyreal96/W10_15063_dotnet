@@ -1,0 +1,85 @@
+﻿// Decompiled with JetBrains decompiler
+// Type: Windows.Gaming.Input.GameControllerButtonLabel
+// Assembly: Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime
+// MVID: 806AFA92-BECA-4A21-B50F-752CC54B3430
+// Assembly location: C:\Users\Empyreal96\Desktop\Windows 10 Mobile\winmd\Windows.WinMD
+
+using Windows.Foundation;
+using Windows.Foundation.Metadata;
+
+namespace Windows.Gaming.Input
+{
+  [ContractVersion(typeof (UniversalApiContract), 196608)]
+  public enum GameControllerButtonLabel
+  {
+    None,
+    XboxBack,
+    XboxStart,
+    XboxMenu,
+    XboxView,
+    XboxUp,
+    XboxDown,
+    XboxLeft,
+    XboxRight,
+    XboxA,
+    XboxB,
+    XboxX,
+    XboxY,
+    XboxLeftBumper,
+    XboxLeftTrigger,
+    XboxLeftStickButton,
+    XboxRightBumper,
+    XboxRightTrigger,
+    XboxRightStickButton,
+    XboxPaddle1,
+    XboxPaddle2,
+    XboxPaddle3,
+    XboxPaddle4,
+    Mode,
+    Select,
+    Menu,
+    View,
+    Back,
+    Start,
+    Options,
+    Share,
+    Up,
+    Down,
+    Left,
+    Right,
+    LetterA,
+    LetterB,
+    LetterC,
+    LetterL,
+    LetterR,
+    LetterX,
+    LetterY,
+    LetterZ,
+    Cross,
+    Circle,
+    Square,
+    Triangle,
+    LeftBumper,
+    LeftTrigger,
+    LeftStickButton,
+    Left1,
+    Left2,
+    Left3,
+    RightBumper,
+    RightTrigger,
+    RightStickButton,
+    Right1,
+    Right2,
+    Right3,
+    Paddle1,
+    Paddle2,
+    Paddle3,
+    Paddle4,
+    Plus,
+    Minus,
+    DownLeftArrow,
+    DialLeft,
+    DialRight,
+    Suspension,
+  }
+}

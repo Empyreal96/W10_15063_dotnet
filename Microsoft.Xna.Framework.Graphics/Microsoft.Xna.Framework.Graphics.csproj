@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\Empyreal96\Desktop\WINDOW~1\100~1.150\MICROS~2.CBS\ARM_MI~1.297\windows\System32\MI1FF1~1.DLL-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7E7300C8-9953-4EC5-A7D6-4576CE4AAF0D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Microsoft.Xna.Framework.Graphics</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <ApplicationVersion>4.0.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Microsoft.Xna.Framework</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Xna.Framework">
+      <HintPath>lib\MIA915~1.DLL</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Graphics\GraphicsResource.cs" />
+    <Compile Include="Graphics\SpriteFont.cs" />
+    <Compile Include="Graphics\ResourceCreatedEventArgs.cs" />
+    <Compile Include="Graphics\ResourceDestroyedEventArgs.cs" />
+    <Compile Include="Graphics\VertexElement.cs" />
+    <Compile Include="Graphics\DisplayMode.cs" />
+    <Compile Include="Graphics\DisplayModeCollection.cs" />
+    <Compile Include="Graphics\Viewport.cs" />
+    <Compile Include="Graphics\Texture.cs" />
+    <Compile Include="Graphics\TextureCollection.cs" />
+    <Compile Include="Graphics\EffectAnnotation.cs" />
+    <Compile Include="Graphics\EffectAnnotationCollection.cs" />
+    <Compile Include="Graphics\EffectMaterial.cs" />
+    <Compile Include="Graphics\IEffectMatrices.cs" />
+    <Compile Include="Graphics\IEffectLights.cs" />
+    <Compile Include="Graphics\IEffectFog.cs" />
+    <Compile Include="Graphics\EffectTechnique.cs" />
+    <Compile Include="Graphics\EffectTechniqueCollection.cs" />
+    <Compile Include="Graphics\PresentationParameters.cs" />
+    <Compile Include="Graphics\SavedDeviceState.cs" />
+    <Compile Include="Graphics\GraphicsContentHelper.cs" />
+    <Compile Include="Graphics\GraphicsHelpers.cs" />
+    <Compile Include="Graphics\DxtDecoder.cs" />
+    <Compile Include="Graphics\EffectDirtyFlags.cs" />
+    <Compile Include="Graphics\EffectHelpers.cs" />
+    <Compile Include="Graphics\DirectionalLight.cs" />
+    <Compile Include="Graphics\BasicEffect.cs" />
+    <Compile Include="Graphics\EnvironmentMapEffect.cs" />
+    <Compile Include="Graphics\DualTextureEffect.cs" />
+    <Compile Include="Graphics\AlphaTestEffect.cs" />
+    <Compile Include="Graphics\SpriteEffectCode.cs" />
+    <Compile Include="Graphics\BasicEffectCode.cs" />
+    <Compile Include="Graphics\SkinnedEffectCode.cs" />
+    <Compile Include="Graphics\EnvironmentMapEffectCode.cs" />
+    <Compile Include="Graphics\DualTextureEffectCode.cs" />
+    <Compile Include="Graphics\AlphaTestEffectCode.cs" />
+    <Compile Include="Graphics\Model.cs" />
+    <Compile Include="Graphics\ModelBone.cs" />
+    <Compile Include="Graphics\ModelBoneCollection.cs" />
+    <Compile Include="Graphics\ModelEffectCollection.cs" />
+    <Compile Include="Graphics\ModelMesh.cs" />
+    <Compile Include="Graphics\ModelMeshCollection.cs" />
+    <Compile Include="Graphics\ModelMeshPart.cs" />
+    <Compile Include="Graphics\ModelMeshPartCollection.cs" />
+    <Compile Include="Graphics\GraphicsProfile.cs" />
+    <Compile Include="Graphics\SurfaceFormat.cs" />
+    <Compile Include="Graphics\DepthFormat.cs" />
+    <Compile Include="Graphics\GraphicsDeviceStatus.cs" />
+    <Compile Include="Graphics\PresentInterval.cs" />
+    <Compile Include="Graphics\ClearOptions.cs" />
+    <Compile Include="Graphics\RenderTargetUsage.cs" />
+    <Compile Include="Graphics\SetDataOptions.cs" />
+    <Compile Include="Graphics\CubeMapFace.cs" />
+    <Compile Include="Graphics\BufferUsage.cs" />
+    <Compile Include="Graphics\IndexElementSize.cs" />
+    <Compile Include="Graphics\PrimitiveType.cs" />
+    <Compile Include="Graphics\VertexElementFormat.cs" />
+    <Compile Include="Graphics\VertexElementUsage.cs" />
+    <Compile Include="Graphics\TextureFilter.cs" />
+    <Compile Include="Graphics\EffectParameterClass.cs" />
+    <Compile Include="Graphics\EffectParameterType.cs" />
+    <Compile Include="Graphics\BlendFunction.cs" />
+    <Compile Include="Graphics\Blend.cs" />
+    <Compile Include="Graphics\CompareFunction.cs" />
+    <Compile Include="Graphics\ColorWriteChannels.cs" />
+    <Compile Include="Graphics\CullMode.cs" />
+    <Compile Include="Graphics\StencilOperation.cs" />
+    <Compile Include="Graphics\FillMode.cs" />
+    <Compile Include="Graphics\TextureAddressMode.cs" />
+    <Compile Include="Graphics\GetShaderValueType.cs" />
+    <Compile Include="Graphics\D3DXEffectParameterType.cs" />
+    <Compile Include="Graphics\HighFrequencyRenderState.cs" />
+    <Compile Include="Graphics\TextureType.cs" />
+    <Compile Include="Graphics\FlushError.cs" />
+    <Compile Include="Graphics\SpriteEffects.cs" />
+    <Compile Include="Graphics\SpriteSortMode.cs" />
+    <Compile Include="Graphics\SpriteBatchConstants.cs" />
+    <Compile Include="Graphics\DeviceLostException.cs" />
+    <Compile Include="Graphics\DeviceNotResetException.cs" />
+    <Compile Include="Graphics\NoSuitableGraphicsDeviceException.cs" />
+    <Compile Include="Graphics\GraphicsAdapter.cs" />
+    <Compile Include="Graphics\IGraphicsDeviceService.cs" />
+    <Compile Include="Graphics\GraphicsDevice.cs" />
+    <Compile Include="Graphics\RenderTarget2D.cs" />
+    <Compile Include="Graphics\RenderTargetCube.cs" />
+    <Compile Include="Graphics\RenderTargetHelper.cs" />
+    <Compile Include="Graphics\RenderTargetBinding.cs" />
+    <Compile Include="Graphics\SpriteBatch.cs" />
+    <Compile Include="Graphics\Texture2D.cs" />
+    <Compile Include="Graphics\Effect.cs" />
+    <Compile Include="Graphics\EffectStateFlags.cs" />
+    <Compile Include="Graphics\EffectPass.cs" />
+    <Compile Include="Graphics\EffectPassCollection.cs" />
+    <Compile Include="Graphics\EffectParameter.cs" />
+    <Compile Include="Graphics\EffectParameterCollection.cs" />
+    <Compile Include="Graphics\IndexBuffer.cs" />
+    <Compile Include="Graphics\DynamicIndexBuffer.cs" />
+    <Compile Include="Graphics\OcclusionQuery.cs" />
+    <Compile Include="Graphics\SamplerState.cs" />
+    <Compile Include="Graphics\SamplerStateCollection.cs" />
+    <Compile Include="Graphics\BlendState.cs" />
+    <Compile Include="Graphics\DepthStencilState.cs" />
+    <Compile Include="Graphics\RasterizerState.cs" />
+    <Compile Include="Graphics\Texture3D.cs" />
+    <Compile Include="Graphics\TextureCube.cs" />
+    <Compile Include="Graphics\VertexBuffer.cs" />
+    <Compile Include="Graphics\DynamicVertexBuffer.cs" />
+    <Compile Include="Graphics\VertexBufferBinding.cs" />
+    <Compile Include="Graphics\VertexDeclaration.cs" />
+    <Compile Include="Graphics\DeclarationBinding.cs" />
+    <Compile Include="Graphics\DeclarationManager.cs" />
+    <Compile Include="Graphics\IVertexType.cs" />
+    <Compile Include="Graphics\VertexDeclarationFactory`1.cs" />
+    <Compile Include="Graphics\VertexPositionColor.cs" />
+    <Compile Include="Graphics\VertexPositionTexture.cs" />
+    <Compile Include="Graphics\VertexPositionColorTexture.cs" />
+    <Compile Include="Graphics\VertexPositionNormalTexture.cs" />
+    <Compile Include="Graphics\ProfileCapabilities.cs" />
+    <Compile Include="Graphics\VertexElementValidator.cs" />
+    <Compile Include="Graphics\HLCBPacketType.cs" />
+    <Compile Include="Graphics\PacketHelpers.cs" />
+    <Compile Include="Graphics\UnsafeNativeMethods.cs" />
+    <Compile Include="Graphics\UnsafeNativeStructures.cs" />
+    <Compile Include="Graphics\SkinnedEffect.cs" />
+    <Compile Include="Content\SpriteFontReader.cs" />
+    <Compile Include="Content\Texture2DReader.cs" />
+    <Compile Include="Content\TextureReader.cs" />
+    <Compile Include="Content\BuiltInEffectReader`1.cs" />
+    <Compile Include="Content\BasicEffectReader.cs" />
+    <Compile Include="Content\SkinnedEffectReader.cs" />
+    <Compile Include="Content\EnvironmentMapEffectReader.cs" />
+    <Compile Include="Content\DualTextureEffectReader.cs" />
+    <Compile Include="Content\AlphaTestEffectReader.cs" />
+    <Compile Include="Content\EffectMaterialReader.cs" />
+    <Compile Include="Content\EffectReader.cs" />
+    <Compile Include="Content\IndexBufferReader.cs" />
+    <Compile Include="Content\ModelReader.cs" />
+    <Compile Include="Content\Texture3DReader.cs" />
+    <Compile Include="Content\TextureCubeReader.cs" />
+    <Compile Include="Content\VertexBufferReader.cs" />
+    <Compile Include="Content\VertexDeclarationReader.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

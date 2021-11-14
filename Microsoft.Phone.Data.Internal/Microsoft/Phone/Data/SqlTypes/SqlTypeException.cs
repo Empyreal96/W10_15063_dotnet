@@ -1,0 +1,31 @@
+﻿// Decompiled with JetBrains decompiler
+// Type: Microsoft.Phone.Data.SqlTypes.SqlTypeException
+// Assembly: Microsoft.Phone.Data.Internal, Version=8.0.0.0, Culture=neutral, PublicKeyToken=24eec0d8c86cda1e
+// MVID: 7C603BAB-2692-41A5-9823-E2E1FFE181D1
+// Assembly location: C:\Users\Empyreal96\Desktop\WINDOW~1\100~1.150\MICROS~2.CBS\ARM_MI~1.297\windows\System32\MI5246~1.DLL
+
+using System;
+using System.Data;
+
+namespace Microsoft.Phone.Data.SqlTypes
+{
+  public class SqlTypeException : DataException
+  {
+    public SqlTypeException()
+      : this(Res.GetString("SqlMisc_SqlTypeMessage"), (Exception) null)
+    {
+      // ISSUE: reference to a compiler-generated method (out of statement scope)
+    }
+
+    public SqlTypeException(string message)
+      : this(message, (Exception) null)
+    {
+    }
+
+    public SqlTypeException(string message, Exception e)
+      : base(message, e)
+    {
+      this.HResult = -2146232016;
+    }
+  }
+}

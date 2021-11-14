@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="SQLCE_KillBitted" xml:space="preserve">
+    <value>Loading of SQL Server Compact version {0} has been disabled due to security reasons. Please update the SQL Server Compact from {1}.</value>
+  </data>
+  <data name="SqlCeConnectionString_AutoShrinkThreshold" xml:space="preserve">
+    <value>The percent of free space in the database file that is allowed before autoshrink begins. </value>
+  </data>
+  <data name="ADP_ConnectionAlreadyOpen" xml:space="preserve">
+    <value>The connection is already Open (state={0}).</value>
+  </data>
+  <data name="ADP_TransactionCompleted" xml:space="preserve">
+    <value>The transaction assigned to this command must be the most nested pending local transaction.</value>
+  </data>
+  <data name="SQLCE_SchemaCollectionNotDefined" xml:space="preserve">
+    <value>The requested collection ({0}) is not defined.</value>
+  </data>
+  <data name="ADP_ConnectionNotEnlisted" xml:space="preserve">
+    <value>The connection object can not be enlisted in transaction scope.</value>
+  </data>
+  <data name="SQLCE_CursorNotUpdatable" xml:space="preserve">
+    <value>This operation is not valid because the cursor is not updatable.</value>
+  </data>
+  <data name="ADP_OpenReaderExists" xml:space="preserve">
+    <value>There is already an open DataReader associated with this Connection or Command which must be closed first.</value>
+  </data>
+  <data name="SQL_InvalidConStringOption" xml:space="preserve">
+    <value>Unknown connection option in connection string: {0}.</value>
+  </data>
+  <data name="SQL_SqlResultSetClosed" xml:space="preserve">
+    <value>Invalid attempt to call method {0} when SqlResultSet is closed.</value>
+  </data>
+  <data name="SQLCE_ConflictingSensitivityOptions" xml:space="preserve">
+    <value>Conflicting result set sensitivity options. SqlCeResultSet can not be both Sensitive and Insensitive.</value>
+  </data>
+  <data name="SQLCE_NoTable" xml:space="preserve">
+    <value>The specified table {0} does not exist.</value>
+  </data>
+  <data name="ADP_NonSequentialColumnAccess" xml:space="preserve">
+    <value>Invalid attempt to read from column ordinal '{0}'.  With CommandBehavior.SequentialAccess, you may only read from column ordinal '{1}' or greater.  </value>
+  </data>
+  <data name="ADP_OpenConnectionRequired_BeginTransaction" xml:space="preserve">
+    <value>{0} requires an open and available Connection. The connection's current state is {1}.</value>
+  </data>
+  <data name="SQLCE_NativeEngineNotLoaded" xml:space="preserve">
+    <value>Native components of SQL Server Compact engine are not loaded. Please reinstall Microsoft SQL Server Compact.</value>
+  </data>
+  <data name="ADP_ParameterNotSpecified" xml:space="preserve">
+    <value>Parameterized query expects a parameter value which was not supplied.</value>
+  </data>
+  <data name="ADP_ConnectionStringSyntax" xml:space="preserve">
+    <value>Format of the initialization string does not conform to specification starting at index {0}.</value>
+  </data>
+  <data name="ADP_MissingSourceCommandConnection" xml:space="preserve">
+    <value>The DataAdapter.SelectCommand.Connection property needs to be initialized;</value>
+  </data>
+  <data name="DataCategory_Advanced" xml:space="preserve">
+    <value>Advanced</value>
+  </data>
+  <data name="SqlCeConnectionString_DefaultLockEscalation" xml:space="preserve">
+    <value>The number of locks a transaction will acquire before attempting escalation from row to page, or from page to table.</value>
+  </data>
+  <data name="SQL_InvalidParameterNameLength" xml:space="preserve">
+    <value>The Parameter name '{0}' is greater than the maximum allowable length of 127 characters.  Please use a shorter parameter name.</value>
+  </data>
+  <data name="ADP_CollectionIsNotParent" xml:space="preserve">
+    <value>The {0} is already contained by another {1}.</value>
+  </data>
+  <data name="ADP_ConnectionRequired_Prepare" xml:space="preserve">
+    <value>{0}: Connection property has not been initialized.</value>
+  </data>
+  <data name="ADP_InvalidSizeValue" xml:space="preserve">
+    <value>Invalid parameter Size value '{0}'. The value must be greater than or equal to 0.</value>
+  </data>
+  <data name="SQLCE_IndexNameNotSpecified" xml:space="preserve">
+    <value>Seek/SetRange requires that you specify table index on the SqlCeCommand instance before calling those methods.</value>
+  </data>
+  <data name="SQL_InvalidBufferSizeOrIndex" xml:space="preserve">
+    <value>Buffer offset '{1}' plus the bytes available '{0}' is greater than the length of the passed in buffer.</value>
+  </data>
+  <data name="OleDb_BadAccessor" xml:space="preserve">
+    <value>Accessor validation was deferred and was performed while the method returned data. The binding was invalid for this column or parameter.</value>
+  </data>
+  <data name="ADP_InvalidImplicitConversion" xml:space="preserve">
+    <value>Implicit conversion of object type '{0}' to data type '{1}' is not supported.</value>
+  </data>
+  <data name="ADP_OpenConnectionRequired_ExecuteScalar" xml:space="preserve">
+    <value>{0} requires an open and available Connection. The connection's current state is {1}.</value>
+  </data>
+  <data name="ADP_EmptyDatabaseName" xml:space="preserve">
+    <value>Database cannot be null, the empty string, or string of only whitespace.</value>
+  </data>
+  <data name="ADP_TransactionConnectionMismatch" xml:space="preserve">
+    <value>The transaction object is not associated with the connection object.</value>
+  </data>
+  <data name="ADP_OpenConnectionRequired_ExecuteReader" xml:space="preserve">
+    <value>{0} requires an open and available Connection. The connection's current state is {1}.</value>
+  </data>
+  <data name="ADP_LocalTransactionPresent" xml:space="preserve">
+    <value>Cannot enlist in the transaction because a local transaction is in progress on the connection. Finish local transaction and retry.</value>
+  </data>
+  <data name="SQLCE_OpenedCursorsOnTxChange" xml:space="preserve">
+    <value>The transaction context of this command can not be changed because there are pending cursors created on this command. Make sure all data readers / result sets are explicitly closed before changing the Transaction property.</value>
+  </data>
+  <data name="SQLCE_OpenedCursorsOnTxCommit" xml:space="preserve">
+    <value>The transaction can not be committed if there are any opened cursors in the scope of this transaction. Make sure all data readers / result sets are explicitly closed before committing the change. </value>
+  </data>
+  <data name="ADP_NoErrorInfoPresent" xml:space="preserve">
+    <value>Serious Error: Not able to retrieve the detailed error information</value>
+  </data>
+  <data name="SqlCeConnectionString_EncryptionMode" xml:space="preserve">
+    <value>Encryption mode with which the database is to be created against.</value>
+  </data>
+  <data name="ADP_ParameterSizeUnspecified" xml:space="preserve">
+    <value>SqlCeCommand.Prepare method requires all variable length parameters to have an explicitly set non-zero Size.</value>
+  </data>
+  <data name="ADP_InvalidQuotePrefix" xml:space="preserve">
+    <value>A valid QuotePrefix character is [,",' or an empty string. </value>
+  </data>
+  <data name="SQLCE_OpenedCursorsOnTxAbort" xml:space="preserve">
+    <value>The transaction can not be aborted if there are any opened cursors in the scope of this transaction. Make sure all data readers / result sets are explicitly closed before aborting the change. </value>
+  </data>
+  <data name="SQLCE_NoPrimaryKey" xml:space="preserve">
+    <value>The table {0} does not have a primary key.</value>
+  </data>
+  <data name="ADP_InvalidSourceBufferIndex" xml:space="preserve">
+    <value>Invalid source buffer (size of {0}) offset: {1}</value>
+  </data>
+  <data name="ADP_TruncatedBytes" xml:space="preserve">
+    <value>Byte array truncation to a length of {0}.</value>
+  </data>
+  <data name="SqlCeConnectionString_Encrypt" xml:space="preserve">
+    <value>A Boolean value that determines whether or not the database is encrypted.</value>
+  </data>
+  <data name="SQLCE_InsensitiveBaseTableCursor" xml:space="preserve">
+    <value>Base Table cursors can never be insensitive.</value>
+  </data>
+  <data name="ADP_InvalidQuoteSuffix" xml:space="preserve">
+    <value>A valid QuoteSuffix character is ],",' or an empty string. </value>
+  </data>
+  <data name="SQLCE_TooManyBytesAvailable" xml:space="preserve">
+    <value>The number of bytes available to read ({0}) is greater than the number of bytes left in the destination buffer ({1}). The number of bytes requested to read was too large.</value>
+  </data>
+  <data name="SQLCE_DataIndexTooLarge" xml:space="preserve">
+    <value>The specified value of dataIndex ({0}) is larger then the maximum allowable value ({1}).</value>
+  </data>
+  <data name="ADP_TransactionZombied" xml:space="preserve">
+    <value>This {0} has completed; it is no longer usable.</value>
+  </data>
+  <data name="SQLCE_UnableToFetchDefaultValue" xml:space="preserve">
+    <value>SqlCeResultSet does not support fetching default column values. Use INFORMATION_SCHEMA.COLUMNS view for this purpose.</value>
+  </data>
+  <data name="SQLCE_WrongCleanupSequence" xml:space="preserve">
+    <value>The retention clean-up sequence is invalid. For the specified input range, clean up the tombstone table prior to cleaning up the transaction table history.</value>
+  </data>
+  <data name="ADP_CannotGetMemoryCap" xml:space="preserve">
+    <value>Failed to get process memory info.</value>
+  </data>
+  <data name="ADP_NoConnectionString" xml:space="preserve">
+    <value>The ConnectionString property has not been initialized.</value>
+  </data>
+  <data name="DatabaseDoesNotExist" xml:space="preserve">
+    <value>The specified database doesn't exists.</value>
+  </data>
+  <data name="SQLCE_FormatException" xml:space="preserve">
+    <value>The argument {0} is improperly formatted. Refer to the documentation for the correct format.</value>
+  </data>
+  <data name="ADP_ConnectionRequired_ExecuteNonQuery" xml:space="preserve">
+    <value>{0}: Connection property has not been initialized.</value>
+  </data>
+  <data name="ADP_OpenConnectionRequired_GetDatabaseInfo" xml:space="preserve">
+    <value>{0} requires an open and available Connection. The connection's current state is {1}.</value>
+  </data>
+  <data name="ADP_ExceedsSharedMemoryCap" xml:space="preserve">
+    <value>Exceeded maximum database memory allocation. Please modify your connection string and try again.</value>
+  </data>
+  <data name="SQLCE_MissingQueryParameters" xml:space="preserve">
+    <value>The required SqlCeParameter(s) were not specified in this instance of SqlCeCommand. Set the Parameters property in accordance with your SQL statement.</value>
+  </data>
+  <data name="SQLCE_DeletedRow" xml:space="preserve">
+    <value>This row has already been deleted. Any changes made to it will be discarded.  </value>
+  </data>
+  <data name="OleDb_DataOverflow" xml:space="preserve">
+    <value>Conversion failed because the {0} data value overflowed the type specified for the {0} value part in the consumer's buffer.</value>
+  </data>
+  <data name="SqlCeConnectionString_FlushInterval" xml:space="preserve">
+    <value>Specified the interval time (in seconds) before all committed transactions are flushed to disk.</value>
+  </data>
+  <data name="ADP_OpenConnectionRequired_CommitTransaction" xml:space="preserve">
+    <value>{0} requires an open and available Connection. The connection's current state is {1}.</value>
+  </data>
+  <data name="SQLCE_OrdinalOutOfRange" xml:space="preserve">
+    <value>The column ordinal ({0}) specified in the call to {1} method is outside of range.</value>
+  </data>
+  <data name="ADP_InvalidDestinationBufferIndex" xml:space="preserve">
+    <value>Invalid destination buffer (size of {0}) offset: {1}</value>
+  </data>
+  <data name="ADP_UnknownDataType" xml:space="preserve">
+    <value>No mapping exists from DbType {0} to a known {1}.</value>
+  </data>
+  <data name="SqlCeConnectionString_MaxBufferSize" xml:space="preserve">
+    <value>The largest amount of memory, in kilobytes, that SQL Server Compact can use before it starts flushing changes to disk. </value>
+  </data>
+  <data name="SQLCE_ColumnContainsDbNullValue" xml:space="preserve">
+    <value>The column at the specified ordinal ({0}) contains DBNull value which can not be represented as a built-in .NET system type. Use SqlTypes or IsDBNull property.</value>
+  </data>
+  <data name="OleDb_CantCreate" xml:space="preserve">
+    <value>The provider could not allocate memory in which to return {0} data.</value>
+  </data>
+  <data name="ADP_CollectionInvalidType" xml:space="preserve">
+    <value>The {0} only accepts non-null {1} type objects, not {2} objects.</value>
+  </data>
+  <data name="SQLCE_CursorNotScrollable" xml:space="preserve">
+    <value>This operation is not valid because the cursor is not scrollable.</value>
+  </data>
+  <data name="ADP_InvalidSchemaSeparator" xml:space="preserve">
+    <value>'.' is the only supported SchemaSeparator.</value>
+  </data>
+  <data name="SQLCE_DbConnectionFailed" xml:space="preserve">
+    <value>Another process accessing this database ended abruptly. Please dispose of your Connections and try again.</value>
+  </data>
+  <data name="SQL_PrecisionValueOutOfRange" xml:space="preserve">
+    <value>Precision value '{0}' is either less than 0 or greater than the maximum allowed precision of 38.</value>
+  </data>
+  <data name="SQL_InvalidDataLength" xml:space="preserve">
+    <value>Data length '{0}' is less than 0.</value>
+  </data>
+  <data name="ADP_DynamicSQLNoTableInfo" xml:space="preserve">
+    <value>Dynamic SQL generation is not supported against a SelectCommand that does not return any base table information.</value>
+  </data>
+  <data name="DataCategory_Source" xml:space="preserve">
+    <value>Source</value>
+  </data>
+  <data name="ADP_OpenConnectionRequired_SetConnection" xml:space="preserve">
+    <value>{0}: The connection has enlist property in connection string as true. An open and available connection is required to set connection on command. The connection's current state is {1}.</value>
+  </data>
+  <data name="ADP_UnknownType" xml:space="preserve">
+    <value>No mapping exists from '{0}' to a known {1}.</value>
+  </data>
+  <data name="SQLCE_InvalidDataType" xml:space="preserve">
+    <value>{0} is not a valid argument type in the call to {1}. Only char[] or byte[] arrays are allowed.</value>
+  </data>
+  <data name="SqlCeConnectionString_FileMode" xml:space="preserve">
+    <value>The mode to use when opening the database file. </value>
+  </data>
+  <data name="SqlMisc_InvalidPrecScaleMessage" xml:space="preserve">
+    <value>Invalid numeric precision/scale.</value>
+  </data>
+  <data name="SQLCE_ConvertFailed" xml:space="preserve">
+    <value>Cannot convert object of type '{0}' to object of type '{1}'.</value>
+  </data>
+  <data name="SQLCE_TooManyParameters" xml:space="preserve">
+    <value>Too many parameters specified.</value>
+  </data>
+  <data name="SqlCeConnectionString_TempFileMaxSize" xml:space="preserve">
+    <value>The maximum size of the temporary database file, in Megabytes. </value>
+  </data>
+  <data name="ADP_CollectionIsParent" xml:space="preserve">
+    <value>The {0} with this name is already contained by this {1}.</value>
+  </data>
+  <data name="SqlCeConnectionString_Password" xml:space="preserve">
+    <value>The database password, which can be up to 40 characters in length.</value>
+  </data>
+  <data name="SQLCE_WrongTrackingVersion" xml:space="preserve">
+    <value>The specified change tracking operation is not supported. To carry out this operation on the table, disable the change tracking on the table, and enable the change tracking.</value>
+  </data>
+  <data name="ADP_LoadNativeBinaryFail" xml:space="preserve">
+    <value>Unable to load the native components of SQL Server Compact corresponding to the ADO.NET provider of version {0}. Install the correct version of SQL Server Compact. Refer to KB article {1} for more details.</value>
+  </data>
+  <data name="SqlCeConnectionString_PersistSecurityInfo" xml:space="preserve">
+    <value>When set to false (which is strongly recommended), security-sensitive information, such as the password, is not returned as part of the connection if the connection is open or has ever been in an open state. Resetting the connection string resets all connection string values, including the password. </value>
+  </data>
+  <data name="ADP_TransactionRequired_Execute" xml:space="preserve">
+    <value>Execute requires the command to have a transaction object when the connection assigned to the command is in a pending local transaction.  The Transaction property of the command has not been initialized.</value>
+  </data>
+  <data name="ADP_CollectionRemoveInvalidObject" xml:space="preserve">
+    <value>Attempted to remove an {0} that is not contained by this {1}.</value>
+  </data>
+  <data name="DataCategory_Security" xml:space="preserve">
+    <value>Security</value>
+  </data>
+  <data name="SQLCE_InvalidOperationInHostedContext" xml:space="preserve">
+    <value>Can not perform this operation from within the body of a trigger or stored procedure.</value>
+  </data>
+  <data name="ADP_DynamicSQLJoinUnsupported" xml:space="preserve">
+    <value>Dynamic SQL generation is not supported against multiple base tables.</value>
+  </data>
+  <data name="SQLCE_InvalidBaseColumnType" xml:space="preserve">
+    <value>{0} can not be called on a column of type {1}.</value>
+  </data>
+  <data name="SQLCE_UndefinedDefaultValue" xml:space="preserve">
+    <value>The base column ({0}) does not have a default value defined.</value>
+  </data>
+  <data name="SQLCE_RestrictionsMismatch" xml:space="preserve">
+    <value>More restrictions were provided than the requested schema ({0}) supports.</value>
+  </data>
+  <data name="SQLCE_ArgumentOutOfRange" xml:space="preserve">
+    <value>The specified value for the parameter {0} is invalid. The valid range of the value for the parameter is from {1} to {2}.</value>
+  </data>
+  <data name="OleDb_CantConvertValue" xml:space="preserve">
+    <value>The data value could not be converted for reasons other than sign mismatch or data overflow. For example, the data was corrupted in the data store but the row was still retrievable.</value>
+  </data>
+  <data name="ADP_InvalidParameterDirection" xml:space="preserve">
+    <value>Invalid direction '{0}' for '{1}' parameter.</value>
+  </data>
+  <data name="SQLCE_WebHostingRestriction" xml:space="preserve">
+    <value>SQL Server Compact is not intended for ASP.NET development.</value>
+  </data>
+  <data name="ADP_OpenConnectionRequired_RollbackTransaction" xml:space="preserve">
+    <value>{0} requires an open and available Connection. The connection's current state is {1}.</value>
+  </data>
+  <data name="SQLCE_TooFewCommandParameters" xml:space="preserve">
+    <value>Too few SqlCeParameters specified in the currently executed query.</value>
+  </data>
+  <data name="ADP_OpenConnectionRequired_Prepare" xml:space="preserve">
+    <value>{0} requires an open and available Connection. The connection's current state is {1}.</value>
+  </data>
+  <data name="ADP_InvalidUpdateRowSource" xml:space="preserve">
+    <value>The UpdateRowSource enumeration value, {0}, is invalid.</value>
+  </data>
+  <data name="Expr_DatatypeConvertion" xml:space="preserve">
+    <value>Cannot convert from {0} to {1}.</value>
+  </data>
+  <data name="SQLCE_CantLoadEntityDll" xml:space="preserve">
+    <value>Could not load System.Data.SqlServerCe.Entity.dll. Reinstall SQL Server Compact. </value>
+  </data>
+  <data name="ADP_InvalidDataRowVersion" xml:space="preserve">
+    <value>{0}: Invalid DataRow Version enumeration value: {1}.</value>
+  </data>
+  <data name="OleDb_UnexpectedStatusValue" xml:space="preserve">
+    <value>OLE DB Provider returned an unexpected status value of {0}.</value>
+  </data>
+  <data name="SQLCE_DataColumn_SetFailed" xml:space="preserve">
+    <value>Couldn't store ({0}) in column ({1}).  The expected data type is {2}.</value>
+  </data>
+  <data name="ADP_CommandTextRequired" xml:space="preserve">
+    <value>{0}: CommandText property has not been initialized</value>
+  </data>
+  <data name="ADP_InvalidDataLength2" xml:space="preserve">
+    <value>Specified length '{0}' is out of range.</value>
+  </data>
+  <data name="SQLCE_ConnectionNotOpened" xml:space="preserve">
+    <value>Invalid Operation : The connection is closed</value>
+  </data>
+  <data name="SqlCeConnectionString_DataSource" xml:space="preserve">
+    <value>The file path and name of the SQL Server Compact database.</value>
+  </data>
+  <data name="SqlCeConnectionString_Lcid" xml:space="preserve">
+    <value>The locale ID (LCID) to use with the database.</value>
+  </data>
+  <data name="ADP_ParallelTransactionsNotSupported" xml:space="preserve">
+    <value>{0} does not support nested transactions.</value>
+  </data>
+  <data name="ADP_FileVersionMismatch" xml:space="preserve">
+    <value>The application is trying to load native components of version {0} that are incompatible with ADO.NET provider of version {1}. Incompatible versions can lead to application instability and hence loading of SQL Server Compact has been aborted. Install the correct version of SQL Server Compact. Refer to KB article {2} for more details.</value>
+  </data>
+  <data name="ADP_DynamicSQLNoKeyInfo" xml:space="preserve">
+    <value>Dynamic SQL generation for the {0} is not supported against a SelectCommand that does not return any key column information.</value>
+  </data>
+  <data name="ADP_NoQuoteChange" xml:space="preserve">
+    <value>The QuotePrefix and QuoteSuffix properties cannot be changed once an Insert, Update, or Delete command has been generated.</value>
+  </data>
+  <data name="ADP_InvalidCommandType" xml:space="preserve">
+    <value>The CommandType enumeration value, {0}, is invalid.</value>
+  </data>
+  <data name="SQLCE_HasRowsScrollabilityRequirement" xml:space="preserve">
+    <value>SQL Server Compact does not support calls to HasRows property if the underlying cursor is not scrollable.</value>
+  </data>
+  <data name="ADP_CanNotRetrieveServerGeneratedKey" xml:space="preserve">
+    <value>Records were updated, but the values were not retrieved back. See internal error for more details.</value>
+  </data>
+  <data name="SQLCE_NativeBinaryIsNotProper" xml:space="preserve">
+    <value>Possible file version mismatch detected between ADO.NET Provider and native binaries of SQL Server Compact which could result in an incorrect functionality. This could be due to the presence of multiple instances of SQL Server Compact of different versions or due to wrong binaries with same name as SQL Server Compact binaries. Please install SQL Server Compact binaries of matching version.</value>
+  </data>
+  <data name="ADP_CollectionIndexString" xml:space="preserve">
+    <value>An {0} with {1} '{2}' is not contained by this {3}.</value>
+  </data>
+  <data name="OleDb_Unavailable" xml:space="preserve">
+    <value>The provider could not determine the {0} value. For example, the row was just created, the default for the {0} column was not available, and the consumer had not yet set a new {0} value.</value>
+  </data>
+  <data name="ADP_MissingSourceCommand" xml:space="preserve">
+    <value>The DataAdapter.SelectCommand property needs to be initialized.</value>
+  </data>
+  <data name="ADP_OpenConnectionRequired_ExecuteNonQuery" xml:space="preserve">
+    <value>{0} requires an open and available Connection. The connection's current state is {1}.</value>
+  </data>
+  <data name="SqlCeConnectionString_MaxDatabaseSize" xml:space="preserve">
+    <value>The maximum size of the database, in Megabytes. </value>
+  </data>
+  <data name="OleDb_SignMismatch" xml:space="preserve">
+    <value>Conversion failed because the {0} data value was signed and the type specified for the {0} value part in the consumer's buffer was unsigned.</value>
+  </data>
+  <data name="SQLCE_ConnectionStringNotInitialized" xml:space="preserve">
+    <value>The LocalConnectionString property has not been initialized yet.</value>
+  </data>
+  <data name="ADP_InvalidDataType" xml:space="preserve">
+    <value>The parameter data type of {0} is invalid.</value>
+  </data>
+  <data name="SQLCE_TooManyCharsAvailable" xml:space="preserve">
+    <value>The number of characters available to read ({0}) is greater than the number of characters left in the destination buffer ({1}). The number of characters requested to read was too large. </value>
+  </data>
+  <data name="OleDb_BadStatus" xml:space="preserve">
+    <value>The operation is invalid and has failed. Retry the operation with valid parameters.</value>
+  </data>
+  <data name="SqlCeConnectionString_CaseSensitive" xml:space="preserve">
+    <value>A Boolean value that determines whether or not the database collation is case-sensitive. </value>
+  </data>
+  <data name="DataCategory_Initialization" xml:space="preserve">
+    <value>Initialization</value>
+  </data>
+  <data name="ADP_OpenConnectionPropertySet" xml:space="preserve">
+    <value>Not allowed to change the '{0}' property while the connection (state={1}).</value>
+  </data>
+  <data name="ADP_InvalidCommandTimeOut" xml:space="preserve">
+    <value>SqlCeCommand.CommandTimeout does not support non-zero values.</value>
+  </data>
+  <data name="SqlCeConnectionString_TempFilePath" xml:space="preserve">
+    <value>The location of the temporary database. </value>
+  </data>
+  <data name="ADP_DataReaderNoData" xml:space="preserve">
+    <value>No data exists for the row/column.</value>
+  </data>
+  <data name="ADP_TruncatedString" xml:space="preserve">
+    <value>String truncation: max={0}, len={1}, value='{2}'.</value>
+  </data>
+  <data name="ADP_InvalidPrefixSuffix" xml:space="preserve">
+    <value>Quote prefix and suffix characters do not match. SqlCeCommandBuider.QuotePrefix: {0}. SqlCeCommandBuider.QuoteSuffix: {1}.</value>
+  </data>
+  <data name="CanNotDropDatabase" xml:space="preserve">
+    <value>Cannot delete the database file, because you do not have permissions to delete the database or it is being used by some other process and there are open connections to the database. See inner exception for more details.</value>
+  </data>
+  <data name="SQL_SqlRecordReadOnly" xml:space="preserve">
+    <value>'{0}' cannot be called when the record is read only.</value>
+  </data>
+  <data name="SQLCE_TooManyCommandParameters" xml:space="preserve">
+    <value>Too many SqlCeParameters specified in the currently executed query.</value>
+  </data>
+  <data name="ADP_OpenConnectionRequired_ChangeDatabase" xml:space="preserve">
+    <value>{0} requires an open Connection. The connection's current state is {1}.</value>
+  </data>
+  <data name="ADP_ConnectionRequired_ExecuteScalar" xml:space="preserve">
+    <value>{0}: Connection property has not been initialized.</value>
+  </data>
+  <data name="ADP_NonSeqByteAccess" xml:space="preserve">
+    <value>Invalid {2} attempt at dataIndex '{0}'.  With CommandBehavior.SequentialAccess, you may only read from dataIndex '{1}'.</value>
+  </data>
+  <data name="SqlCeConnectionString_Enlist" xml:space="preserve">
+    <value>If a connection database is opened by using Enlist set to true, the connection is promoted to a transaction.</value>
+  </data>
+  <data name="ADP_InvalidIsolationLevel" xml:space="preserve">
+    <value>The IsolationLevel value {0} is invalid.</value>
+  </data>
+  <data name="ADP_CommandIsActive" xml:space="preserve">
+    <value>The {0} is currently busy {1}.</value>
+  </data>
+  <data name="SQLCE_InvalidValueForKeyValue" xml:space="preserve">
+    <value>Invalid value for key '{0}'. </value>
+  </data>
+  <data name="ADP_ConnectionRequired_ExecuteReader" xml:space="preserve">
+    <value>{0}: Connection property has not been initialized.</value>
+  </data>
+  <data name="SQLCE_InternalErrorInGetSchema" xml:space="preserve">
+    <value>Internal error occurred while retrieving the metadata information.</value>
+  </data>
+  <data name="ADP_KeywordNotSupported" xml:space="preserve">
+    <value>Keyword not supported: '{0}'.</value>
+  </data>
+  <data name="SQL_InvalidConnectionOptionValue" xml:space="preserve">
+    <value>Invalid '{0}' value in the connection string: {1}.</value>
+  </data>
+  <data name="SqlCeConnectionString_DefaultLockTimeout" xml:space="preserve">
+    <value>The default number of milliseconds that a transaction will wait for a lock.</value>
+  </data>
+  <data name="SQL_ScaleValueOutOfRange" xml:space="preserve">
+    <value>Scale value '{0}' is either less than 0 or greater than the maximum allowed scale of 38.</value>
+  </data>
+  <data name="ADP_CollectionNullValue" xml:space="preserve">
+    <value>The {0} only accepts non-null {1} type objects.</value>
+  </data>
+  <data name="ADP_DataReaderClosed" xml:space="preserve">
+    <value>Invalid attempt to {0} when reader is closed.</value>
+  </data>
+  <data name="SQLCE_IncorrectValue" xml:space="preserve">
+    <value>The argument {0} is given as {1}, which is invalid. The valid value is {2}. Change the argument to the relevant value, and re-try.</value>
+  </data>
+</root>

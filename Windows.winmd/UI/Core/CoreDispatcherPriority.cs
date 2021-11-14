@@ -1,0 +1,21 @@
+﻿// Decompiled with JetBrains decompiler
+// Type: Windows.UI.Core.CoreDispatcherPriority
+// Assembly: Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime
+// MVID: 806AFA92-BECA-4A21-B50F-752CC54B3430
+// Assembly location: C:\Users\Empyreal96\Desktop\Windows 10 Mobile\winmd\Windows.WinMD
+
+using Windows.Foundation;
+using Windows.Foundation.Metadata;
+
+namespace Windows.UI.Core
+{
+  [ContractVersion(typeof (UniversalApiContract), 65536)]
+  [WebHostHidden]
+  public enum CoreDispatcherPriority
+  {
+    [ContractVersion("Windows.Foundation.UniversalApiContract", 65536)] Idle = -2, // 0xFFFFFFFE
+    Low = -1, // 0xFFFFFFFF
+    Normal = 0,
+    High = 1,
+  }
+}
